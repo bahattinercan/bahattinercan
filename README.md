@@ -7,6 +7,7 @@
 </picture>
 
 <a href="mailto:bahattin.ercan.43@gmail.com"><img src="https://img.shields.io/badge/bahattin.ercan.43@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="E-posta"></a>
+<a href="https://bahattinercan-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolyo-39D353?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolyo sitesi"></a>
 <a href="https://www.linkedin.com/in/bahattin-ercan"><img src="https://img.shields.io/badge/bahattin--ercan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 <img src="https://img.shields.io/badge/K%C3%BCtahya,%20T%C3%BCrkiye-1f6feb?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Konum">
 
@@ -245,8 +246,11 @@ gösteremez. Bu yüzden buradaki sayı, üstteki aktivite grafiğiyle aynı kayn
 <div align="center">
 
 İş görüşmesi, freelance proje veya teknik soru için e-posta en hızlı yol.
+Vaka çalışmaları ve iletişim bilgileri portfolyo sitesinde de var:
+[bahattinercan-portfolio.vercel.app](https://bahattinercan-portfolio.vercel.app)
 
 <a href="mailto:bahattin.ercan.43@gmail.com"><img src="https://img.shields.io/badge/E--posta%20g%C3%B6nder-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="E-posta gönder"></a>
+<a href="https://bahattinercan-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolyo-39D353?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolyo"></a>
 <a href="https://www.linkedin.com/in/bahattin-ercan"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 
 </div>

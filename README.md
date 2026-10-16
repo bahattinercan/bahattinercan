@@ -47,7 +47,7 @@ constraints documented in the repo, and something that can actually be shipped.<
 
 <a href="https://github.com/bahattinercan/local-ai-news"><img src="assets/projects/openweight-radar.webp" alt="OpenWeight Radar — model listesi ve filtre paneli" width="100%"></a>
 
-### OpenWeight Radar
+### OpenWeight Radar &nbsp;·&nbsp; [canlı](https://local-ai-news.vercel.app)
 
 Yerelde çalıştırılabilir **açık ağırlıklı AI modellerini** kategori sekmeleriyle takip eden, haber akışı zamanlanmış olarak güncellenen izleme sitesi.
 

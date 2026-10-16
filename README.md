@@ -122,7 +122,7 @@ Lokanta için **sıfır bağımlılık** statik sipariş sitesi: WhatsApp üzeri
 
 `Flutter` `Dart` `SQLite` `Windows`
 
-<sub>Çok kalemli sipariş, kullanıcı tanımlı üretim aşamaları, kısmi tahsilat, stok ve raporlar. 508 test / 112 dosya.<br>Kaynak kod özel; talep üzerine gösterilebilir.</sub>
+<sub>Çok kalemli sipariş, kullanıcı tanımlı üretim aşamaları, kısmi tahsilat, stok ve raporlar. 725 test / 145 Dart dosyası.<br>[Vaka çalışması](https://github.com/bahattinercan/case-studies/blob/main/docs/musteri-siparis-takip.md) · kaynak kod özel.</sub>
 
 </td>
 </tr>
@@ -130,12 +130,23 @@ Lokanta için **sıfır bağımlılık** statik sipariş sitesi: WhatsApp üzeri
 
 ### Bunların dışında
 
-- **Bakım Onarım Yönetim Sistemi (CMMS)** — Çok şirketli bakım süreci (arıza → SLA → iş emri → saha → kapanış).
-  NestJS + Prisma + PostgreSQL API, BullMQ worker, React web ve Expo mobil istemci.
-- **Taskbar Hero** — Android için idle RPG prototipi. Savaş motoru saf Kotlin, **sabit adımlı** simülasyon;
-  aynı seed aynı sonucu üretiyor, denge ölçümleri JVM testleriyle tekrarlanabilir. 101 test.
-- **JobRadar** — İş ilanlarını 7 kaynaktan toplayan, normalize eden, tekilleştiren ve deterministik skorla raporlayan ingest sistemi.
-- **Mavi Konak QR Menü** — Kütahya çini motiflerinden esinlenmiş kafe menüsü sitesi.
+Bazı işler **özel repolarda** yürüyor. Kodları yayınlanmıyor ama mühendislik anlatımları
+[kaynak kodu özel olan dört ürünün vaka çalışmaları](https://github.com/bahattinercan/case-studies)
+altında: problem, mimari, ölçülmüş kanıt ve bilinen sınırlar.
+
+- **[Bakım Onarım Yönetim Sistemi (CMMS)](https://github.com/bahattinercan/case-studies/blob/main/docs/bakim-onarim-yonetim.md)** —
+  Çok şirketli bakım süreci (arıza → SLA → iş emri → saha → kapanış).
+  NestJS + Prisma + PostgreSQL, BullMQ outbox, React web, Expo mobil.
+  Katman sınırları dependency-cruiser ile denetleniyor; OpenAPI sözleşme kayması CI'da yakalanıyor.
+- **[Taskbar Hero](https://github.com/bahattinercan/case-studies/blob/main/docs/new-taskbar-hero.md)** —
+  Android için idle RPG. Savaş motoru **saf Kotlin ve sabit adımlı**: aynı seed aynı sonucu
+  üretir, denge ölçümü JVM testleriyle tekrarlanabilir. 101 test.
+- **[JobRadar](https://github.com/bahattinercan/case-studies/blob/main/docs/find-job.md)** —
+  7 kaynaktan iş ilanı toplayan, normalize eden, tekilleştiren ve deterministik skorlayan ingest
+  sistemi. Kaynak sağlığı raporu "boru hattı sessizce bozuldu mu?" sorusunu cevaplar.
+- **[Müşteri Sipariş Takip](https://github.com/bahattinercan/case-studies/blob/main/docs/musteri-siparis-takip.md)**
+  vaka çalışması — 725 test, çevrimdışı lisans/aktivasyon, tek bilgisayar kurulumu.
+- **[Mavi Konak QR Menü](https://github.com/bahattinercan/mavi-konak-website)** — Kütahya çini motiflerinden esinlenmiş kafe menüsü sitesi.
 - **[Unity prototip arşivi](https://github.com/bahattinercan/unity-prototypes-archive)** — 2022–2023 arasında C# ile geliştirilmiş 23 oynanabilir prototip:
   hiper-casual, ritim, match-3, üs savunma, VR. Arşiv repo'su mekanikleri ve tekrar eden sistemleri indeksler.
 - **E-ticaret üçlüsü** — React vitrin, React admin paneli ve Express + MongoDB backend.

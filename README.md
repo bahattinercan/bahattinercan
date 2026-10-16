@@ -136,7 +136,8 @@ Lokanta için **sıfır bağımlılık** statik sipariş sitesi: WhatsApp üzeri
   aynı seed aynı sonucu üretiyor, denge ölçümleri JVM testleriyle tekrarlanabilir. 101 test.
 - **JobRadar** — İş ilanlarını 7 kaynaktan toplayan, normalize eden, tekilleştiren ve deterministik skorla raporlayan ingest sistemi.
 - **Mavi Konak QR Menü** — Kütahya çini motiflerinden esinlenmiş kafe menüsü sitesi.
-- **Unity prototip arşivi** — 2022'de C# ile geliştirilmiş 30+ oynanış prototipi (mekanik, level ve state sistemleri).
+- **[Unity prototip arşivi](https://github.com/bahattinercan/unity-prototypes-archive)** — 2022–2023 arasında C# ile geliştirilmiş 23 oynanabilir prototip:
+  hiper-casual, ritim, match-3, üs savunma, VR. Arşiv repo'su mekanikleri ve tekrar eden sistemleri indeksler.
 - **E-ticaret üçlüsü** — React vitrin, React admin paneli ve Express + MongoDB backend.
 
 ---

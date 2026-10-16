@@ -103,7 +103,7 @@ Berber randevu ve personel yönetimi. Flutter uygulaması + Node.js/Express REST
 
 <a href="https://github.com/bahattinercan/doner-website"><img src="assets/projects/doner-website.webp" alt="Döner sipariş sitesi — ana sayfa" width="100%"></a>
 
-### Döner Sipariş Sitesi
+### Döner Sipariş Sitesi &nbsp;·&nbsp; [canlı](https://doner-website.vercel.app)
 
 Lokanta için **sıfır bağımlılık** statik sipariş sitesi: WhatsApp üzerinden sipariş, gece modu, localStorage sepet.
 

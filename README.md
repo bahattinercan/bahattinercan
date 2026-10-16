@@ -146,7 +146,7 @@ altında: problem, mimari, ölçülmüş kanıt ve bilinen sınırlar.
   sistemi. Kaynak sağlığı raporu "boru hattı sessizce bozuldu mu?" sorusunu cevaplar.
 - **[Müşteri Sipariş Takip](https://github.com/bahattinercan/case-studies/blob/main/docs/musteri-siparis-takip.md)**
   vaka çalışması — 725 test, çevrimdışı lisans/aktivasyon, tek bilgisayar kurulumu.
-- **[Mavi Konak QR Menü](https://github.com/bahattinercan/mavi-konak-website)** — Kütahya çini motiflerinden esinlenmiş kafe menüsü sitesi.
+- **Mavi Konak QR Menü** — Kütahya çini motiflerinden esinlenmiş kafe menüsü sitesi (kaynak özel).
 - **[Unity prototip arşivi](https://github.com/bahattinercan/unity-prototypes-archive)** — 2022–2023 arasında C# ile geliştirilmiş 23 oynanabilir prototip:
   hiper-casual, ritim, match-3, üs savunma, VR. Arşiv repo'su mekanikleri ve tekrar eden sistemleri indeksler.
 - **E-ticaret üçlüsü** — React vitrin, React admin paneli ve Express + MongoDB backend.

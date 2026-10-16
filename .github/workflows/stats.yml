@@ -1,0 +1,42 @@
+name: Generate profile stats card
+
+# Profil kartini kendi verimizden uretir; ucuncu parti servise bagimlilik yok.
+# Yalnizca bu dosya veya uretici script degistiginde push'ta calisir, boylece
+# kart commit'inin tetikledigi dongu olusmaz.
+
+on:
+  schedule:
+    - cron: "30 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/stats.yml"
+      - "tools/generate_stats.py"
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Katkı kartını üret
+        run: python tools/generate_stats.py bahattinercan
+
+      - name: Değişiklik varsa commit et
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/generated
+          if git diff --cached --quiet; then
+            echo "Kart zaten güncel."
+          else
+            git commit -m "chore(stats): katkı kartını yenile"
+            git push
+          fi

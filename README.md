@@ -200,11 +200,16 @@ Lokanta için **sıfır bağımlılık** statik sipariş sitesi: WhatsApp üzeri
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=bahattinercan&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=39D353&icon_color=2DD4BF&text_color=C9D1D9&hide=issues" alt="GitHub istatistikleri">
-<img height="165" src="https://streak-stats.demolab.com?user=bahattinercan&hide_border=true&background=0D1117&ring=39D353&fire=2DD4BF&currStreakLabel=39D353&sideLabels=C9D1D9&dates=6E7681&currStreakNum=E6EDF3&sideNums=E6EDF3" alt="Katkı serisi">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/generated/contributions-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/generated/contributions.svg">
+  <img src="assets/generated/contributions.svg" alt="Son 12 ayda katkı özeti ve günlük katkı ızgarası" width="100%">
+</picture>
 
-<sub>Bu kartlar GitHub'ın **herkese açık** verisini gösterir. Özel repolardaki katkılar yalnızca
-aşağıdaki aktivite grafiğinde sayılır — son bir yıldaki katkımın büyük kısmı orada.</sub>
+<sub>Kart her gün otomatik yenileniyor ([`stats.yml`](.github/workflows/stats.yml), veri doğrudan
+katkı grafiğinden) ve **özel repolardaki katkıları da sayıyor** — hazır istatistik kartları bunu
+gösteremez. Bu yüzden buradaki sayı, üstteki aktivite grafiğiyle aynı kaynaktan gelir; popüler
+üçüncü parti kartların gösterdiği daha düşük sayı yanıltıcıdır.</sub>
 
 </div>
 

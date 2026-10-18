@@ -3,7 +3,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-  <img src="assets/banner-dark.svg" alt="Bahattin Ercan — Computer Engineer" width="100%">
+  <img src="assets/banner-dark.svg" alt="Bahattin Ercan, Computer Engineer" width="100%">
 </picture>
 
 <a href="mailto:bahattin.ercan.43@gmail.com"><img src="https://img.shields.io/badge/bahattin.ercan.43@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="E-posta"></a>
@@ -20,21 +20,19 @@
 JWT kimlik doğrulama ve rol bazlı yetkilendirme sistemleri; **Node.js/Express** ile servis katmanları;
 **Flutter** ile tek kod tabanından iOS ve Android uygulamaları geliştiriyorum.
 
-Yazdığım sistemlerde iki yerde hata payı bırakmıyorum: veritabanı şeması ve para hareketi.
-Şema tasarımını ve migration'ları geri alınabilir adımlarla yönetiyorum; sanal POS, 3D Secure
-doğrulama, iade ve iptal akışlarını test ve kayıtla kilitliyorum. Raspberry Pi üzerinde çalışan
-IoT cihazları için de uzaktan kontrol ve otomasyon sistemleri kurdum.
+Web tarafında React, Next.js ve Angular ile arayüz kuruyorum; oyun tarafında Unity ve C# ile
+hypercasual mobil oyunlar geliştirip yayınladım. Veritabanı şeması, migration'lar ve Docker ile
+dağıtım bu dört alanın ortak zemini.
 
 İngilizce **C1** · yurt dışı remote ve Türkiye'de yerinde çalışmaya açığım · hemen başlayabilirim.
 
-<sub>**In English** — I have been writing code since 2019, with 4+ years of professional experience.
+<sub>**In English.** I have been writing code since 2019, with 4+ years of professional experience.
 I build REST APIs, JWT authentication and role-based authorization with **Django and Django REST
 Framework**; service layers with **Node.js/Express**; and cross-platform iOS/Android apps from a
-single **Flutter** codebase. There are two places in my systems where I leave no room for error:
-the database schema and money movement. I manage schema design and migrations as reversible
-steps, and I lock payment flows — virtual POS, 3D Secure verification, refunds and voids — with
-tests and logging. I have also built remote control and automation systems for IoT devices on
-Raspberry Pi. English C1, available immediately, open to remote and relocation.</sub>
+single **Flutter** codebase. On the web I work with React, Next.js and Angular, and on the game
+side I have developed and published hypercasual mobile games with Unity and C#. Database schema,
+migrations and Docker deployment are the shared foundation across all four areas. English C1,
+available immediately, open to remote and relocation.</sub>
 
 ---
 
@@ -42,10 +40,10 @@ Raspberry Pi. English C1, available immediately, open to remote and relocation.<
 
 | | |
 |---|---|
-| **Backend ve API** | Django / DRF ile REST API, JWT kimlik doğrulama, rol bazlı yetkilendirme, WebSocket ile gerçek zamanlı akış; Node.js/Express servis katmanları |
-| **Ödeme entegrasyonu** | Sanal POS bağlantısı, 3D Secure doğrulama akışı, iade ve iptal işlemleri |
-| **Mobil ve masaüstü** | Flutter ile iOS ve Android yayınlama, Windows masaüstü uygulamaları; React Native |
-| **Veri ve altyapı** | PostgreSQL şema tasarımı, Sequelize model ve migration'ları, Docker ile dağıtım, Linux, Raspberry Pi |
+| **Backend ve API** | Django / DRF ile REST API, JWT kimlik doğrulama, rol bazlı yetkilendirme, WebSocket ile gerçek zamanlı akış. Node.js/Express servis katmanları; PostgreSQL şema tasarımı ve migration'lar |
+| **Web** | React, Next.js ve Angular ile arayüz. API entegrasyonu, responsive yerleşim, yönetim panelleri ve veri yoğun tablo ekranları |
+| **Mobil ve masaüstü** | Flutter ile tek kod tabanından iOS ve Android yayınlama, Windows masaüstü uygulamaları, React Native |
+| **Oyun** | Unity ve C# ile hypercasual mobil oyunlar. Level tasarımı, oyun mekaniği, kontrol ve fizik sistemleri; AdMob ve Unity Ads ile monetizasyon |
 
 ---
 
@@ -70,7 +68,7 @@ Raspberry Pi. English C1, available immediately, open to remote and relocation.<
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://github.com/bahattinercan/local-ai-news"><img src="assets/projects/openweight-radar.webp" alt="OpenWeight Radar — model listesi ve filtre paneli" width="100%"></a>
+<a href="https://github.com/bahattinercan/local-ai-news"><img src="assets/projects/openweight-radar.webp" alt="OpenWeight Radar, model listesi ve filtre paneli" width="100%"></a>
 
 ### OpenWeight Radar &nbsp;·&nbsp; [canlı](https://local-ai-news.vercel.app)
 
@@ -83,7 +81,7 @@ Yerelde çalıştırılabilir **açık ağırlıklı AI modellerini** kategori s
 </td>
 <td width="50%" valign="top">
 
-<a href="https://github.com/bahattinercan/beauty-salon"><img src="assets/projects/beauty-salon.webp" alt="Güzellik salonu platformu — müşteri uygulaması ve admin paneli" width="100%"></a>
+<a href="https://github.com/bahattinercan/beauty-salon"><img src="assets/projects/beauty-salon.webp" alt="Güzellik salonu platformu, müşteri uygulaması ve admin paneli" width="100%"></a>
 
 ### Güzellik Salonu Platformu
 
@@ -98,7 +96,7 @@ Yerelde çalıştırılabilir **açık ağırlıklı AI modellerini** kategori s
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://github.com/bahattinercan/russia-plague-website"><img src="assets/projects/plague-tracker.webp" alt="Plague Tracker — kaynak izleme panosu" width="100%"></a>
+<a href="https://github.com/bahattinercan/russia-plague-website"><img src="assets/projects/plague-tracker.webp" alt="Plague Tracker, kaynak izleme panosu" width="100%"></a>
 
 ### Plague Tracker &nbsp;·&nbsp; [canlı](https://plague-tracker.vercel.app)
 
@@ -111,7 +109,7 @@ Haber iddialarını **kaç bağımsız kaynağın bildirdiğine** göre etiketle
 </td>
 <td width="50%" valign="top">
 
-<a href="https://github.com/bahattinercan/barber_shops"><img src="assets/projects/barber-shops.webp" alt="Berber randevu uygulaması — giriş, kayıt ve salon ekranları" width="100%"></a>
+<a href="https://github.com/bahattinercan/barber_shops"><img src="assets/projects/barber-shops.webp" alt="Berber randevu uygulaması, giriş, kayıt ve salon ekranları" width="100%"></a>
 
 ### Barber Shops
 
@@ -126,7 +124,7 @@ Berber randevu ve personel yönetimi. Flutter istemcisi ve Node.js/Express REST 
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://github.com/bahattinercan/doner-website"><img src="assets/projects/doner-website.webp" alt="Döner sipariş sitesi — ana sayfa" width="100%"></a>
+<a href="https://github.com/bahattinercan/doner-website"><img src="assets/projects/doner-website.webp" alt="Döner sipariş sitesi, ana sayfa" width="100%"></a>
 
 ### Döner Sipariş Sitesi &nbsp;·&nbsp; [canlı](https://doner-website.vercel.app)
 
@@ -134,12 +132,12 @@ Lokanta için **sıfır bağımlılık** statik sipariş sitesi: WhatsApp üzeri
 
 `HTML` `CSS` `JavaScript` `MIT`
 
-<sub>Derleme adımı ve framework yok — dosyayı kopyala, çalışır. Küçük işletmeler için bakımı bedava.</sub>
+<sub>Derleme adımı ve framework yok: dosyayı kopyala, çalışır. Küçük işletmeler için bakımı bedava.</sub>
 
 </td>
 <td width="50%" valign="top">
 
-<img src="assets/projects/siparis-takip.webp" alt="Müşteri Sipariş Takip Sistemi — müşteriler ekranı" width="100%">
+<img src="assets/projects/siparis-takip.webp" alt="Müşteri Sipariş Takip Sistemi, müşteriler ekranı" width="100%">
 
 ### Müşteri Sipariş Takip
 
@@ -159,18 +157,18 @@ Bazı işler **özel repolarda** yürüyor. Kodları yayınlanmıyor ama mühend
 [kaynak kodu özel olan dört ürünün vaka çalışmaları](https://github.com/bahattinercan/case-studies)
 altında: problem, mimari, ölçülmüş kanıt ve bilinen sınırlar.
 
-- **[Bakım Onarım Yönetim Sistemi (CMMS)](https://github.com/bahattinercan/case-studies/blob/main/docs/bakim-onarim-yonetim.md)** —
+- **[Bakım Onarım Yönetim Sistemi (CMMS)](https://github.com/bahattinercan/case-studies/blob/main/docs/bakim-onarim-yonetim.md)**:
   Çok şirketli bakım süreci (arıza → SLA → iş emri → saha → kapanış). Katman sınırları otomatik
   denetleniyor, API sözleşme kayması CI'da yakalanıyor.
-- **[Taskbar Hero](https://github.com/bahattinercan/case-studies/blob/main/docs/new-taskbar-hero.md)** —
+- **[Taskbar Hero](https://github.com/bahattinercan/case-studies/blob/main/docs/new-taskbar-hero.md)**:
   Android için idle RPG. Savaş motoru saf Kotlin ve sabit adımlı: aynı seed aynı sonucu üretir,
   denge ölçümü 101 testle tekrarlanabilir.
-- **[JobRadar](https://github.com/bahattinercan/case-studies/blob/main/docs/find-job.md)** —
+- **[JobRadar](https://github.com/bahattinercan/case-studies/blob/main/docs/find-job.md)**:
   7 kaynaktan ilan toplayan, normalize eden, tekilleştiren ve deterministik skorlayan sistem.
-- **Mavi Konak QR Menü** — Kütahya çini motiflerinden esinlenmiş kafe menüsü sitesi (kaynak özel).
-- **[Unity prototip arşivi](https://github.com/bahattinercan/unity-prototypes-archive)** — 2022–2023 arasında
+- **Mavi Konak QR Menü**: Kütahya çini motiflerinden esinlenmiş kafe menüsü sitesi (kaynak özel).
+- **[Unity prototip arşivi](https://github.com/bahattinercan/unity-prototypes-archive)**: 2022–2023 arasında
   C# ile geliştirilmiş 23 oynanabilir prototip: hiper-casual, ritim, match-3, üs savunma, VR.
-- **E-ticaret üçlüsü** — React vitrin, React admin paneli ve Express + MongoDB backend.
+- **E-ticaret üçlüsü**: React vitrin, React admin paneli ve Express + MongoDB backend.
 
 ---
 
@@ -240,18 +238,18 @@ tahsilat hesabı, üretim aşaması geçişleri, yetkilendirme, skorlama.
 yazılı. Yeni gelen biri soru sormak zorunda kalmıyor; repoyu açan aynı sonuca varıyor.
 
 **Demo veri ile gerçek veri karışmıyor.** Geliştirme sentetik veriyle yapılıyor ve üretimde
-varsayılan şifreyle seed çalıştırmak kodla engelli — "demo kullanıcıyla canlıya çıkmak" hatası
+varsayılan şifreyle seed çalıştırmak kodla engelli; "demo kullanıcıyla canlıya çıkmak" hatası
 yapısal olarak imkânsız.
 
 ---
 
 ## Eğitim ve sertifikalar
 
-**Dumlupınar Üniversitesi** — Bilgisayar Mühendisliği lisansı, 2019 – 2023 · GNO 3.05 / 4.00
+**Dumlupınar Üniversitesi**: Bilgisayar Mühendisliği lisansı, 2019–2023 · GNO 3.05 / 4.00
 
-- UML ve Nesne Yönelimli Tasarım Temelleri — Karoly Nyisztor, 2023
-- Unity ile Defans Oyunu — Code Monkey, 2021
-- Unreal Engine C++ Developer — Ben Tristem · GameDev.tv, 2020
+- UML ve Nesne Yönelimli Tasarım Temelleri · Karoly Nyisztor, 2023
+- Unity ile Defans Oyunu · Code Monkey, 2021
+- Unreal Engine C++ Developer · Ben Tristem · GameDev.tv, 2020
 
 **Diller:** Türkçe (ana dil) · İngilizce (C1)
 
@@ -268,7 +266,7 @@ yapısal olarak imkânsız.
 </picture>
 
 <sub>Kart her gün otomatik yenileniyor ([`stats.yml`](.github/workflows/stats.yml), veri doğrudan
-katkı grafiğinden) ve **özel repolardaki katkıları da sayıyor** — hazır istatistik kartları bunu
+katkı grafiğinden) ve **özel repolardaki katkıları da sayıyor**; hazır istatistik kartları bunu
 gösteremez. Bu yüzden buradaki sayı, üstteki aktivite grafiğiyle aynı kaynaktan gelir.</sub>
 
 </div>

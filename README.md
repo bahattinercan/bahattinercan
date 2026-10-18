@@ -230,16 +230,17 @@ altında: problem, mimari, ölçülmüş kanıt ve bilinen sınırlar.
 
 ## Nasıl çalışıyorum
 
-**Kritik mantığı teste bağlıyorum.** Uygulamayı çökertmeyen ama yanlış sonuç üreten yerler:
-tahsilat hesabı, üretim aşaması geçişleri, yetkilendirme, skorlama.
+**Testi çöken yere değil, sessizce yanlış yapan yere yazıyorum.** Uygulama ayakta kalır ama
+sonuç yanlış olur: tahsilat hesabı, üretim aşaması geçişleri, yetkilendirme, skorlama. Teste
+öncelik verdiğim yer tam olarak burası.
 *Müşteri Sipariş Takip'te 725, Güzellik Salonu'nda 535, Taskbar Hero'da 101 test.*
 
-**Kararlar kodun yanında duruyor.** Her projede mimari, kısıtlar ve neyi yapmamaya karar verdiğim
-yazılı. Yeni gelen biri soru sormak zorunda kalmıyor; repoyu açan aynı sonuca varıyor.
+**Kararları kafamda değil repoda bırakıyorum.** Mimari, kısıtlar ve neyi yapmamaya karar
+verdiğim yazılı. İşi devralan kişi soru sormak zorunda kalmıyor; repoyu açan aynı sonuca
+varıyor.
 
-**Demo veri ile gerçek veri karışmıyor.** Geliştirme sentetik veriyle yapılıyor ve üretimde
-varsayılan şifreyle seed çalıştırmak kodla engelli; "demo kullanıcıyla canlıya çıkmak" hatası
-yapısal olarak imkânsız.
+**Uydurma veri canlıya çıkamıyor.** Geliştirme sentetik veriyle yapılıyor, üretimde varsayılan
+şifreyle seed çalıştırmak kodla engelli. Kuralı yazmakla kalmıyorum, koda gömüyorum.
 
 ---
 

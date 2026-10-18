@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-label="Bahattin Ercan — Computer Engineer. Django/DRF, Node.js, Flutter. 4+ yıl profesyonel deneyim, İngilizce C1.">
+  <title>Bahattin Ercan — Computer Engineer</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0f14"/>
+      <stop offset="0.6" stop-color="#0d131b"/>
+      <stop offset="1" stop-color="#101c26"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#39d353"/>
+      <stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#39d353"/>
+      <stop offset="1" stop-color="#2dd4bf" stop-opacity="0.2"/>
+    </linearGradient>
+    <radialGradient id="glow-a" cx="0.1" cy="0.1" r="0.7">
+      <stop offset="0" stop-color="#39d353" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#39d353" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow-b" cx="0.95" cy="0.9" r="0.7">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#8b949e" fill-opacity="0.13"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <rect width="1280" height="640" fill="url(#dots)"/>
+  <rect x="-200" y="-160" width="1700" height="900" fill="url(#glow-a)"/>
+  <rect x="-200" y="-160" width="1700" height="900" fill="url(#glow-b)"/>
+  <rect x="0" y="0" width="8" height="640" fill="url(#accent)"/>
+  <rect x="0" y="632" width="1280" height="8" fill="url(#edge)"/>
+
+  <g font-family="'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif">
+    <text x="88" y="164" font-size="17" font-weight="700" letter-spacing="5" fill="#39d353">COMPUTER&#160;ENGINEER</text>
+    <text x="86" y="266" font-size="76" font-weight="700" fill="#e6edf3" letter-spacing="-2">Bahattin Ercan</text>
+    <text x="88" y="326" font-size="25" fill="#2dd4bf" font-weight="600">Django / DRF · Node.js · Flutter · TypeScript · PostgreSQL</text>
+    <text x="88" y="382" font-size="19" fill="#8b949e">Kütahya, Türkiye · 4+ yıl profesyonel deneyim · İngilizce C1</text>
+    <text x="88" y="418" font-size="19" fill="#8b949e">Yurt dışı remote ve Türkiye'de yerinde çalışmaya açık · hemen başlayabilirim</text>
+
+    <g transform="translate(88 486)">
+      <circle cx="7" cy="7" r="7" fill="#39d353"/>
+      <text x="26" y="14" font-size="17" fill="#c9d1d9">github.com/bahattinercan</text>
+    </g>
+  </g>
+
+  <!-- sağ: katman şeması -->
+  <g transform="translate(852 118)">
+    <rect width="360" height="404" rx="18" fill="#0f1620" fill-opacity="0.92" stroke="#21262d"/>
+    <rect x="0" y="0" width="360" height="4" rx="2" fill="url(#accent)"/>
+
+    <text x="28" y="46" font-size="12" font-weight="700" letter-spacing="3" fill="#6e7681" font-family="'Segoe UI',Ubuntu,sans-serif">İSTEMCİLER</text>
+    <g font-family="'Segoe UI',Ubuntu,sans-serif">
+      <rect x="28" y="60" width="92" height="40" rx="9" fill="#131c26" stroke="#21262d"/>
+      <text x="74" y="86" font-size="15" font-weight="600" fill="#e6edf3" text-anchor="middle">iOS</text>
+      <rect x="134" y="60" width="92" height="40" rx="9" fill="#131c26" stroke="#21262d"/>
+      <text x="180" y="86" font-size="15" font-weight="600" fill="#e6edf3" text-anchor="middle">Android</text>
+      <rect x="240" y="60" width="92" height="40" rx="9" fill="#131c26" stroke="#21262d"/>
+      <text x="286" y="86" font-size="15" font-weight="600" fill="#e6edf3" text-anchor="middle">Web</text>
+    </g>
+    <g transform="translate(852 268)">
+      <rect width="18" height="18" rx="9" fill="none" stroke="#e6edf3" stroke-opacity="0.7"/>
+    </g>
+
+    <line x1="74" y1="100" x2="74" y2="150" stroke="url(#accent)" stroke-width="2" stroke-opacity="0.7"/>
+    <line x1="180" y1="100" x2="180" y2="150" stroke="url(#accent)" stroke-width="2" stroke-opacity="0.7"/>
+    <line x1="286" y1="100" x2="286" y2="150" stroke="url(#accent)" stroke-width="2" stroke-opacity="0.7"/>
+
+    <rect x="28" y="150" width="304" height="126" rx="12" fill="#131c26" stroke="#21262d"/>
+    <text x="46" y="178" font-size="12" font-weight="700" letter-spacing="2.4" fill="#6e7681" font-family="'Segoe UI',Ubuntu,sans-serif">API · DJANGO / DRF · NODE.JS</text>
+    <g font-family="ui-monospace,Consolas,monospace">
+      <rect x="46" y="190" width="176" height="20" rx="5" fill="#39d353" fill-opacity="0.16"/>
+      <text x="54" y="204" font-size="11.5" fill="#e6edf3">POST /api/v1/auth/login</text>
+      <rect x="46" y="216" width="216" height="20" rx="5" fill="#39d353" fill-opacity="0.16"/>
+      <text x="54" y="230" font-size="11.5" fill="#e6edf3">GET  /api/v1/orders</text>
+      <rect x="46" y="242" width="112" height="20" rx="5" fill="#39d353" fill-opacity="0.16"/>
+      <text x="54" y="256" font-size="11.5" fill="#e6edf3">JWT · RBAC</text>
+    </g>
+    <g transform="translate(168 242)" font-family="'Segoe UI',Ubuntu,sans-serif">
+      <rect width="106" height="20" rx="10" fill="#2dd4bf" fill-opacity="0.14" stroke="#2dd4bf" stroke-opacity="0.42"/>
+      <text x="53" y="14" font-size="11" font-weight="600" fill="#2dd4bf" text-anchor="middle">3D SECURE</text>
+    </g>
+
+    <line x1="74" y1="276" x2="74" y2="322" stroke="url(#accent)" stroke-width="2" stroke-opacity="0.7"/>
+    <line x1="180" y1="276" x2="180" y2="322" stroke="url(#accent)" stroke-width="2" stroke-opacity="0.7"/>
+    <line x1="286" y1="276" x2="286" y2="322" stroke="url(#accent)" stroke-width="2" stroke-opacity="0.7"/>
+
+    <rect x="28" y="322" width="304" height="62" rx="12" fill="#131c26" stroke="#21262d"/>
+    <g transform="translate(46 338)">
+      <ellipse cx="15" cy="7" rx="15" ry="6" fill="#2dd4bf" fill-opacity="0.2"/>
+      <path d="M0 7v14a15 6 0 0 0 30 0V7" fill="#2dd4bf" fill-opacity="0.1" stroke="#2dd4bf" stroke-opacity="0.7"/>
+      <ellipse cx="15" cy="7" rx="15" ry="6" fill="none" stroke="#2dd4bf" stroke-opacity="0.7"/>
+    </g>
+    <text x="90" y="350" font-size="12" font-weight="700" letter-spacing="2.4" fill="#6e7681" font-family="'Segoe UI',Ubuntu,sans-serif">POSTGRESQL</text>
+    <text x="90" y="370" font-size="12" fill="#6e7681" font-family="'Segoe UI',Ubuntu,sans-serif">şema tasarımı · migration · indeks</text>
+  </g>
+</svg>

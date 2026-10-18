@@ -20,18 +20,21 @@
 JWT kimlik doğrulama ve rol bazlı yetkilendirme sistemleri; **Node.js/Express** ile servis katmanları;
 **Flutter** ile tek kod tabanından iOS ve Android uygulamaları geliştiriyorum.
 
-Günlük işim PostgreSQL şema tasarımı, Sequelize migration'ları, Docker ile dağıtım ve
-**3D Secure doğrulamalı ödeme akışları**. Ayrıca Raspberry Pi üzerinde çalışan IoT cihazları için
-uzaktan kontrol ve otomasyon sistemleri kurdum.
+Yazdığım sistemlerde iki yerde hata payı bırakmıyorum: veritabanı şeması ve para hareketi.
+Şema tasarımını ve migration'ları geri alınabilir adımlarla yönetiyorum; sanal POS, 3D Secure
+doğrulama, iade ve iptal akışlarını test ve kayıtla kilitliyorum. Raspberry Pi üzerinde çalışan
+IoT cihazları için de uzaktan kontrol ve otomasyon sistemleri kurdum.
 
 İngilizce **C1** · yurt dışı remote ve Türkiye'de yerinde çalışmaya açığım · hemen başlayabilirim.
 
 <sub>**In English** — I have been writing code since 2019, with 4+ years of professional experience.
 I build REST APIs, JWT authentication and role-based authorization with **Django and Django REST
 Framework**; service layers with **Node.js/Express**; and cross-platform iOS/Android apps from a
-single **Flutter** codebase. My day-to-day work includes PostgreSQL schema design, Sequelize
-migrations, Docker-based deployment and **online payment flows with 3D Secure verification**.
-English C1, available immediately, open to remote and relocation.</sub>
+single **Flutter** codebase. There are two places in my systems where I leave no room for error:
+the database schema and money movement. I manage schema design and migrations as reversible
+steps, and I lock payment flows — virtual POS, 3D Secure verification, refunds and voids — with
+tests and logging. I have also built remote control and automation systems for IoT devices on
+Raspberry Pi. English C1, available immediately, open to remote and relocation.</sub>
 
 ---
 

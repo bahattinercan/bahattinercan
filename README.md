@@ -7,25 +7,31 @@
 </picture>
 
 <a href="mailto:bahattin.ercan.43@gmail.com"><img src="https://img.shields.io/badge/bahattin.ercan.43@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="E-posta"></a>
-<a href="https://bahattinercan-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolyo-39D353?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolyo sitesi"></a>
+<a href="cv/Bahattin-Ercan-CV-TR.pdf"><img src="https://img.shields.io/badge/CV-Türkçe-2dd4bf?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="CV (Türkçe)"></a>
+<a href="cv/Bahattin-Ercan-CV-EN.pdf"><img src="https://img.shields.io/badge/CV-English-2dd4bf?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="CV (English)"></a>
+<a href="https://bahattinercan-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolyo-39D353?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolyo"></a>
 <a href="https://www.linkedin.com/in/bahattin-ercan"><img src="https://img.shields.io/badge/bahattin--ercan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-<img src="https://img.shields.io/badge/K%C3%BCtahya,%20T%C3%BCrkiye-1f6feb?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Konum">
 
 </div>
 
 ## Kısaca
 
-Çok kiracılı iş uygulamaları, Windows masaüstü araçları ve zamanlanmış veri hatları geliştiriyorum.
-Arayüzü Flutter/Dart ile mobil ve masaüstünde, TypeScript ile web'de (Next.js + NestJS) yazıyorum;
-veri katmanında PostgreSQL, SQLite ve MongoDB kullanıyorum.
+2019'dan beri kod yazıyorum, 4+ yılı profesyonel. **Django ve Django REST Framework** ile REST API,
+JWT kimlik doğrulama ve rol bazlı yetkilendirme sistemleri; **Node.js/Express** ile servis katmanları;
+**Flutter** ile tek kod tabanından iOS ve Android uygulamaları geliştiriyorum.
 
-İşi "çalışıyor" noktasında bırakmamaya çalışıyorum: kritik mantığı testle kilitliyorum,
-kararları ve kısıtları repo içinde dokümante ediyorum, teslim edilebilir bir sürüm çıkarıyorum.
+Günlük işim PostgreSQL şema tasarımı, Sequelize migration'ları, Docker ile dağıtım ve
+**3D Secure doğrulamalı ödeme akışları**. Ayrıca Raspberry Pi üzerinde çalışan IoT cihazları için
+uzaktan kontrol ve otomasyon sistemleri kurdum.
 
-<sub>**In English** — I build multi-tenant business applications, Windows desktop tools and scheduled data pipelines.
-Flutter/Dart for mobile & desktop, TypeScript (Next.js + NestJS) for web, PostgreSQL/SQLite/MongoDB for data.
-I keep the work past the "it runs" stage: tests around the logic that can silently break, decisions and
-constraints documented in the repo, and something that can actually be shipped.</sub>
+İngilizce **C1** · yurt dışı remote ve Türkiye'de yerinde çalışmaya açığım · hemen başlayabilirim.
+
+<sub>**In English** — I have been writing code since 2019, with 4+ years of professional experience.
+I build REST APIs, JWT authentication and role-based authorization with **Django and Django REST
+Framework**; service layers with **Node.js/Express**; and cross-platform iOS/Android apps from a
+single **Flutter** codebase. My day-to-day work includes PostgreSQL schema design, Sequelize
+migrations, Docker-based deployment and **online payment flows with 3D Secure verification**.
+English C1, available immediately, open to remote and relocation.</sub>
 
 ---
 
@@ -33,10 +39,25 @@ constraints documented in the repo, and something that can actually be shipped.<
 
 | | |
 |---|---|
-| **Çok kiracılı ürünler** | Güzellik salonu platformu (API + web admin + iki Flutter uygulaması) ve çok şirketli bakım-onarım yönetim sistemi. İzolasyon sınırı tenant/şirket, yetkilendirme rol bazlı. |
-| **Masaüstü ve mobil** | Windows'ta kurulan çevrimdışı Flutter masaüstü uygulamaları, Flutter mobil uygulamalar, Kotlin/Android oyun prototipleri. |
-| **Zamanlanmış veri hatları** | Kaynaklardan toplayan, normalize eden, sınıflandıran ve snapshot olarak yayınlayan ingest sistemleri (Next.js + GitHub Actions / cron). |
-| **Arayüz işçiliği** | Sıfır bağımlılık statik siteler, kurumsal paneller, veri yoğun tablo/rapor ekranları. |
+| **Backend ve API** | Django / DRF ile REST API, JWT kimlik doğrulama, rol bazlı yetkilendirme, WebSocket ile gerçek zamanlı akış; Node.js/Express servis katmanları |
+| **Ödeme entegrasyonu** | Sanal POS bağlantısı, 3D Secure doğrulama akışı, iade ve iptal işlemleri |
+| **Mobil ve masaüstü** | Flutter ile iOS ve Android yayınlama, Windows masaüstü uygulamaları; React Native |
+| **Veri ve altyapı** | PostgreSQL şema tasarımı, Sequelize model ve migration'ları, Docker ile dağıtım, Linux, Raspberry Pi |
+
+---
+
+## Deneyim
+
+| Rol | Kapsam | Dönem |
+|---|---|---|
+| **Backend & Mobil Geliştirici** | Django/DRF ile web platformları, servisler ve REST API'ler; Flutter ile tek kod tabanından iOS/Android yayınlama; web ve mobil istemcilerle backend entegrasyonu | 2026 |
+| **Askerlik hizmeti** | Uzun dönem | 2025 – 2026 |
+| **Full Stack Geliştirici** | Flutter ile ölçeklenebilir modüler mimari (Provider, Fluro, GetIt, Dio); Node.js/Express REST API ve JWT + rol bazlı yetkilendirme; PostgreSQL şema tasarımı ve Sequelize migration'ları; Docker ile taşınabilir dağıtım; Google Maps, Firebase, bildirim ve WebSocket entegrasyonları | 2023 – 2024 |
+| **IoT & Mobil Geliştirici** | Raspberry Pi + Node.js + Flutter ile ozon hava iyileştirme cihazına anlık uzaktan kontrol ve otomasyon; canlı veri takibi ve güvenli haberleşme; rol, izin ve kullanıcı durumu yöneten admin mimarisi (Flutter mobil + web panelleri) | 2022 – 2023 |
+| **Unity / C# Oyun Geliştirici** | Hypercasual mobil oyunlar: level tasarımı, oyun mekaniği, kontrol ve fizik sistemleri; AdMob ve Unity Ads monetizasyonu; CPI testleri ve retention analizi | 2022 |
+| **Yazılım Stajyeri** | PHP, Angular, Node.js ile kurumsal projelerde geliştirme; frontend ve backend tarafında tam döngü | 2021 |
+
+<sub>İşveren adları kamuya açık profilde paylaşılmıyor; süreçte ve CV'de belirtiliyor.</sub>
 
 ---
 
@@ -54,7 +75,7 @@ Yerelde çalıştırılabilir **açık ağırlıklı AI modellerini** kategori s
 
 `Next.js 16` `TypeScript` `Hugging Face` `GitHub Actions`
 
-<sub>Sınıflandırma mantığı 40 fixture'lık regresyon kapısıyla korunuyor; kaynak sağlığı ayrı bir komutla raporlanıyor.</sub>
+<sub>Sınıflandırma mantığı 40 fixture'lık regresyon kapısıyla kilitli; kaynak sağlığı ayrı raporlanıyor.</sub>
 
 </td>
 <td width="50%" valign="top">
@@ -63,11 +84,11 @@ Yerelde çalıştırılabilir **açık ağırlıklı AI modellerini** kategori s
 
 ### Güzellik Salonu Platformu
 
-**Çok kiracılı** salon yönetimi: Express + Sequelize API, Next.js admin paneli, Flutter salon ve müşteri uygulamaları.
+Çok kiracılı salon yönetimi: API, web yönetim paneli ve iki Flutter uygulaması. Tek kod tabanı, dört istemci.
 
 `Express` `Sequelize` `Next.js` `Flutter`
 
-<sub>Üretimde varsayılan şifreyle seed çalıştırmayı reddeden koruma; demo veri ile gerçek veri ayrımı.</sub>
+<sub>535 test · kiracı izolasyonu test edilmiş · üretimde varsayılan şifreyle çalışmak kodla engelli.</sub>
 
 </td>
 </tr>
@@ -78,11 +99,11 @@ Yerelde çalıştırılabilir **açık ağırlıklı AI modellerini** kategori s
 
 ### Plague Tracker &nbsp;·&nbsp; [canlı](https://plague-tracker.vercel.app)
 
-Haber iddialarını **kaç bağımsız kaynağın bildirdiğine** göre etiketleyen izleme sitesi. Sistem hiçbir yerde "doğrulandı" demez; yalnızca kimin ne bildirdiğini raporlar.
+Haber iddialarını **kaç bağımsız kaynağın bildirdiğine** göre etiketleyen izleme platformu. Sistem hiçbir yerde "doğrulandı" demez; yalnızca kimin ne bildirdiğini raporlar.
 
 `Next.js` `TypeScript` `Drizzle ORM` `Vercel`
 
-<sub>Bağımsızlık grupları, çelişkili bilgi etiketi ve kaynak sağlığı takibi.</sub>
+<sub>Beş etiket seviyesi, bağımsızlık grupları ve kaynak sağlığı takibi; TR/EN.</sub>
 
 </td>
 <td width="50%" valign="top">
@@ -91,7 +112,7 @@ Haber iddialarını **kaç bağımsız kaynağın bildirdiğine** göre etiketle
 
 ### Barber Shops
 
-Berber randevu ve personel yönetimi. Flutter uygulaması + Node.js/Express REST API'si; müdür, çalışan ve admin rolleri.
+Berber randevu ve personel yönetimi. Flutter istemcisi ve Node.js/Express REST API'si; müdür, çalışan ve admin rolleri.
 
 `Flutter` `Dart` `Node.js` `Express`
 
@@ -119,11 +140,11 @@ Lokanta için **sıfır bağımlılık** statik sipariş sitesi: WhatsApp üzeri
 
 ### Müşteri Sipariş Takip
 
-İmalat atölyesi için sipariş → üretim → tahsilat takibi. **Windows masaüstü, çevrimdışı**, veriler yerel SQLite'ta.
+İmalat atölyesi için sipariş → üretim → tahsilat takibi. Windows masaüstü, çevrimdışı, veriler yerel SQLite'ta.
 
 `Flutter` `Dart` `SQLite` `Windows`
 
-<sub>Çok kalemli sipariş, kullanıcı tanımlı üretim aşamaları, kısmi tahsilat, stok ve raporlar. 725 test / 145 Dart dosyası.<br>[Vaka çalışması](https://github.com/bahattinercan/case-studies/blob/main/docs/musteri-siparis-takip.md) · kaynak kod özel.</sub>
+<sub>725 test · kullanıcı tanımlı üretim aşamaları · kısmi tahsilat · çevrimdışı doğrulanan lisans.<br>[Vaka çalışması](https://github.com/bahattinercan/case-studies/blob/main/docs/musteri-siparis-takip.md)</sub>
 
 </td>
 </tr>
@@ -136,75 +157,94 @@ Bazı işler **özel repolarda** yürüyor. Kodları yayınlanmıyor ama mühend
 altında: problem, mimari, ölçülmüş kanıt ve bilinen sınırlar.
 
 - **[Bakım Onarım Yönetim Sistemi (CMMS)](https://github.com/bahattinercan/case-studies/blob/main/docs/bakim-onarim-yonetim.md)** —
-  Çok şirketli bakım süreci (arıza → SLA → iş emri → saha → kapanış).
-  NestJS + Prisma + PostgreSQL, BullMQ outbox, React web, Expo mobil.
-  Katman sınırları dependency-cruiser ile denetleniyor; OpenAPI sözleşme kayması CI'da yakalanıyor.
+  Çok şirketli bakım süreci (arıza → SLA → iş emri → saha → kapanış). Katman sınırları otomatik
+  denetleniyor, API sözleşme kayması CI'da yakalanıyor.
 - **[Taskbar Hero](https://github.com/bahattinercan/case-studies/blob/main/docs/new-taskbar-hero.md)** —
-  Android için idle RPG. Savaş motoru **saf Kotlin ve sabit adımlı**: aynı seed aynı sonucu
-  üretir, denge ölçümü JVM testleriyle tekrarlanabilir. 101 test.
+  Android için idle RPG. Savaş motoru saf Kotlin ve sabit adımlı: aynı seed aynı sonucu üretir,
+  denge ölçümü 101 testle tekrarlanabilir.
 - **[JobRadar](https://github.com/bahattinercan/case-studies/blob/main/docs/find-job.md)** —
-  7 kaynaktan iş ilanı toplayan, normalize eden, tekilleştiren ve deterministik skorlayan ingest
-  sistemi. Kaynak sağlığı raporu "boru hattı sessizce bozuldu mu?" sorusunu cevaplar.
-- **[Müşteri Sipariş Takip](https://github.com/bahattinercan/case-studies/blob/main/docs/musteri-siparis-takip.md)**
-  vaka çalışması — 725 test, çevrimdışı lisans/aktivasyon, tek bilgisayar kurulumu.
+  7 kaynaktan ilan toplayan, normalize eden, tekilleştiren ve deterministik skorlayan sistem.
 - **Mavi Konak QR Menü** — Kütahya çini motiflerinden esinlenmiş kafe menüsü sitesi (kaynak özel).
-- **[Unity prototip arşivi](https://github.com/bahattinercan/unity-prototypes-archive)** — 2022–2023 arasında C# ile geliştirilmiş 23 oynanabilir prototip:
-  hiper-casual, ritim, match-3, üs savunma, VR. Arşiv repo'su mekanikleri ve tekrar eden sistemleri indeksler.
+- **[Unity prototip arşivi](https://github.com/bahattinercan/unity-prototypes-archive)** — 2022–2023 arasında
+  C# ile geliştirilmiş 23 oynanabilir prototip: hiper-casual, ritim, match-3, üs savunma, VR.
 - **E-ticaret üçlüsü** — React vitrin, React admin paneli ve Express + MongoDB backend.
 
 ---
 
 ## Teknoloji
 
-**Mobil & Masaüstü**
+**Backend**
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![DRF](https://img.shields.io/badge/DRF-A30000?style=for-the-badge&logo=django&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+
+**Veri**
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=sequelize&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-DD2C00?style=for-the-badge&logo=firebase&logoColor=white)
+
+**Mobil ve masaüstü**
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![React Native](https://img.shields.io/badge/React%20Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white)
 
 **Web**
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-**Backend & Veri**
-![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![BullMQ](https://img.shields.io/badge/BullMQ-CC0000?style=for-the-badge&logo=redis&logoColor=white)
-
-**Oyun & Sistem**
+**Oyun ve sistem**
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white)
 ![Unity](https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white)
+![Unreal](https://img.shields.io/badge/Unreal%20Engine-0E1128?style=for-the-badge&logo=unrealengine&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 **Araçlar**
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 ---
 
 ## Nasıl çalışıyorum
 
-- **Test, sonradan eklenen bir katman değil.** Sessizce bozulabilecek mantığın etrafına test yazıyorum:
-  sınıflandırma, skorlama, üretim aşamaları, yetkilendirme.
-  *Müşteri Sipariş Takip'te 508 test/112 dosya, Taskbar Hero'da 101 JVM testi.*
-- **Kararlar repoda.** Neyin neden böyle olduğu, hangi kısıtın kabul edildiği ve nasıl çalıştırılacağı
-  kodun yanında duruyor; sözlü aktarılan bilgiye bırakmıyorum.
-- **Gerçek veri ile demo veri karışmıyor.** Geliştirme sentetik veriyle yapılıyor; üretimde
-  varsayılan şifreyle seed çalıştırmak reddediliyor.
-- **Teslim edilebilir sürüm çıkarıyorum.** Kurulum notu, sürüm numarası, sürüm notu ve yedekleme
-  olmadan "bitti" demiyorum.
+**Kritik mantığı teste bağlıyorum.** Uygulamayı çökertmeyen ama yanlış sonuç üreten yerler:
+tahsilat hesabı, üretim aşaması geçişleri, yetkilendirme, skorlama.
+*Müşteri Sipariş Takip'te 725, Güzellik Salonu'nda 535, Taskbar Hero'da 101 test.*
+
+**Kararlar kodun yanında duruyor.** Her projede mimari, kısıtlar ve neyi yapmamaya karar verdiğim
+yazılı. Yeni gelen biri soru sormak zorunda kalmıyor; repoyu açan aynı sonuca varıyor.
+
+**Demo veri ile gerçek veri karışmıyor.** Geliştirme sentetik veriyle yapılıyor ve üretimde
+varsayılan şifreyle seed çalıştırmak kodla engelli — "demo kullanıcıyla canlıya çıkmak" hatası
+yapısal olarak imkânsız.
+
+---
+
+## Eğitim ve sertifikalar
+
+**Dumlupınar Üniversitesi** — Bilgisayar Mühendisliği lisansı, 2019 – 2023 · GNO 3.05 / 4.00
+
+- UML ve Nesne Yönelimli Tasarım Temelleri — Karoly Nyisztor, 2023
+- Unity ile Defans Oyunu — Code Monkey, 2021
+- Unreal Engine C++ Developer — Ben Tristem · GameDev.tv, 2020
+
+**Diller:** Türkçe (ana dil) · İngilizce (C1)
 
 ---
 
@@ -220,8 +260,7 @@ altında: problem, mimari, ölçülmüş kanıt ve bilinen sınırlar.
 
 <sub>Kart her gün otomatik yenileniyor ([`stats.yml`](.github/workflows/stats.yml), veri doğrudan
 katkı grafiğinden) ve **özel repolardaki katkıları da sayıyor** — hazır istatistik kartları bunu
-gösteremez. Bu yüzden buradaki sayı, üstteki aktivite grafiğiyle aynı kaynaktan gelir; popüler
-üçüncü parti kartların gösterdiği daha düşük sayı yanıltıcıdır.</sub>
+gösteremez. Bu yüzden buradaki sayı, üstteki aktivite grafiğiyle aynı kaynaktan gelir.</sub>
 
 </div>
 
@@ -245,11 +284,12 @@ gösteremez. Bu yüzden buradaki sayı, üstteki aktivite grafiğiyle aynı kayn
 
 <div align="center">
 
-İş görüşmesi, freelance proje veya teknik soru için e-posta en hızlı yol.
-Vaka çalışmaları ve iletişim bilgileri portfolyo sitesinde de var:
-[bahattinercan-portfolio.vercel.app](https://bahattinercan-portfolio.vercel.app)
+İş görüşmesi veya proje için e-posta en hızlı yol. Özgeçmişin iki dilde sürümü ve
+vaka çalışmaları aşağıda.
 
 <a href="mailto:bahattin.ercan.43@gmail.com"><img src="https://img.shields.io/badge/E--posta%20g%C3%B6nder-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="E-posta gönder"></a>
+<a href="cv/Bahattin-Ercan-CV-TR.pdf"><img src="https://img.shields.io/badge/CV-Türkçe-2dd4bf?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="CV (Türkçe)"></a>
+<a href="cv/Bahattin-Ercan-CV-EN.pdf"><img src="https://img.shields.io/badge/CV-English-2dd4bf?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="CV (English)"></a>
 <a href="https://bahattinercan-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolyo-39D353?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolyo"></a>
 <a href="https://www.linkedin.com/in/bahattin-ercan"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 

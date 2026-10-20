@@ -287,7 +287,21 @@ kapatıyorum; kuralı yazmak yetmiyor, çünkü kuralı okuyacak kişi de o gün
 Dağıtımda Docker kullanıyorum, migration'ı dağıtımın parçası sayıyorum ve sırları repoya
 koymuyorum. Testler ve tip kontrolü geçmeden birleştirme yapmıyorum.
 
-### Çalışma biçimi
+### Ekip içi çalışma
+
+Ekipte en çok işe yarayan şeyin kod yazma hızı değil devredilebilirlik olduğunu düşünüyorum; bir işi
+bitirdiğimde sorduğum soru "çalışıyor mu" değil, "ben yokken de yürür mü". İncelemeye küçük ve tek
+amaçlı değişiklikler gönderiyorum, çünkü içinde iki ayrı iş olan bir PR okunmuyor ve geri alınması
+gerektiğinde ikisini birden götürüyor. Yorumu koda yazıyorum, kişiye değil; "bunu neden böyle
+yaptın" yerine "şu durumda ne oluyor" diye soruyorum, çünkü ikincisi cevap alıyor.
+
+Stil tartışmasını otomatiğe bağlıyorum: biçimlendirici, linter, tip kontrolü ve testler CI'da
+çalışıyorsa tartışılacak bir şey kalmıyor. Katılmadığım bir karar verildiğinde gerekçemi bir kez
+söyleyip uyguluyorum, itirazı da yazıya geçiriyorum; sözlü kalan itiraz üç ay sonra "ben
+demiştim"e dönüşüyor ve kimseye faydası olmuyor. Yeni gelen birine düzeltmeyi göstermekle kalmayıp
+nedenini de söylüyorum, bir sonraki benzer durumda sormak zorunda kalmasın diye.
+
+### İş akışı ve kapsam
 
 Büyük bir teslimle gelmek yerine uçtan uca çalışan küçük bir dilimle başlıyorum, sonra üstüne
 ekliyorum. Emin olmadığım yerde soruyorum; özellikle kapsam ve öncelik konusunda tahmin yürütmek

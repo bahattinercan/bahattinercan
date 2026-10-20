@@ -230,17 +230,19 @@ altında: problem, mimari, ölçülmüş kanıt ve bilinen sınırlar.
 
 ## Nasıl çalışıyorum
 
-**Testi çöken yere değil, sessizce yanlış yapan yere yazıyorum.** Uygulama ayakta kalır ama
-sonuç yanlış olur: tahsilat hesabı, üretim aşaması geçişleri, yetkilendirme, skorlama. Teste
-öncelik verdiğim yer tam olarak burası.
-*Müşteri Sipariş Takip'te 725, Güzellik Salonu'nda 535, Taskbar Hero'da 101 test.*
+Testleri genelde ilk akla gelen yerden başlatmıyorum. Çöken ekran kendini belli ediyor, çoğu
+zaman aynı gün düzeltiliyor. Beni asıl korkutan, hiçbir yerde hata vermeden yanlış sonuç üreten
+kod: yanlış hesaplanmış bir tahsilat, atlanmış bir üretim aşaması, açık kalmış bir yetki.
+Müşteri Sipariş Takip'te 725, Güzellik Salonu'nda 535, Taskbar Hero'da 101 testin çoğu bu yüzden
+var.
 
-**Kararları kafamda değil repoda bırakıyorum.** Mimari, kısıtlar ve neyi yapmamaya karar
-verdiğim yazılı. İşi devralan kişi soru sormak zorunda kalmıyor; repoyu açan aynı sonuca
-varıyor.
+Kararları kafamda tutmuyorum, repoda bırakıyorum. Bir şeyi neden öyle yaptığımı altı ay sonra
+kendim de hatırlamıyorum, o yüzden README'ye ya da kodun yanına yazıyorum. Neyi yapmamaya karar
+verdiğimi de yazıyorum; yoksa aynı tartışma her ay baştan başlıyor.
 
-**Uydurma veri canlıya çıkamıyor.** Geliştirme sentetik veriyle yapılıyor, üretimde varsayılan
-şifreyle seed çalıştırmak kodla engelli. Kuralı yazmakla kalmıyorum, koda gömüyorum.
+Demo verisiyle canlıya çıkma ihtimalini sevmiyorum. Geliştirmede uydurma veri kullanıyorum,
+üretimde varsayılan şifreyle seed çalıştırmayı kodla kapatıyorum. Kuralı yazmak yetmiyor, çünkü
+kuralı okuyacak kişi de o gün acele eden kişi oluyor.
 
 ---
 

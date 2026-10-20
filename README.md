@@ -1,5 +1,7 @@
 <div align="center">
 
+**Türkçe** &nbsp;·&nbsp; [English](README.en.md)
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
@@ -26,13 +28,7 @@ dağıtım bu dört alanın ortak zemini.
 
 İngilizce **C1** · yurt dışı remote ve Türkiye'de yerinde çalışmaya açığım · hemen başlayabilirim.
 
-<sub>**In English.** I have been writing code since 2019, with 4+ years of professional experience.
-I build REST APIs, JWT authentication and role-based authorization with **Django and Django REST
-Framework**; service layers with **Node.js/Express**; and cross-platform iOS/Android apps from a
-single **Flutter** codebase. On the web I work with React, Next.js and Angular, and on the game
-side I have developed and published hypercasual mobile games with Unity and C#. Database schema,
-migrations and Docker deployment are the shared foundation across all four areas. English C1,
-available immediately, open to remote and relocation.</sub>
+<sub>Bu sayfanın tamamının İngilizcesi: **[README.en.md](README.en.md)**</sub>
 
 ---
 

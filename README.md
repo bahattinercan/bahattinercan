@@ -230,19 +230,69 @@ altında: problem, mimari, ölçülmüş kanıt ve bilinen sınırlar.
 
 ## Nasıl çalışıyorum
 
+### Testler
+
 Testleri genelde ilk akla gelen yerden başlatmıyorum. Çöken ekran kendini belli ediyor, çoğu
-zaman aynı gün düzeltiliyor. Beni asıl korkutan, hiçbir yerde hata vermeden yanlış sonuç üreten
-kod: yanlış hesaplanmış bir tahsilat, atlanmış bir üretim aşaması, açık kalmış bir yetki.
-Müşteri Sipariş Takip'te 725, Güzellik Salonu'nda 535, Taskbar Hero'da 101 testin çoğu bu yüzden
-var.
+zaman aynı gün düzeltiliyor; asıl mesele hiçbir yerde hata vermeden yanlış sonuç üreten kod.
+Müşteri Sipariş Takip'te 725 testin çoğu bu yüzden var: kısmi tahsilat, bakiye, üretim aşaması
+geçişleri. Güzellik Salonu'nda 535, Taskbar Hero'da 101, bakım-onarım sisteminde 68 test dosyası.
+Test sayısını kendi başına bir başarı olarak görmüyorum; işe yaradığı yer, bir şeyi değiştirirken
+korkmamam.
 
-Kararları kafamda tutmuyorum, repoda bırakıyorum. Bir şeyi neden öyle yaptığımı altı ay sonra
-kendim de hatırlamıyorum, o yüzden README'ye ya da kodun yanına yazıyorum. Neyi yapmamaya karar
-verdiğimi de yazıyorum; yoksa aynı tartışma her ay baştan başlıyor.
+### Veri modeli
 
-Demo verisiyle canlıya çıkma ihtimalini sevmiyorum. Geliştirmede uydurma veri kullanıyorum,
-üretimde varsayılan şifreyle seed çalıştırmayı kodla kapatıyorum. Kuralı yazmak yetmiyor, çünkü
-kuralı okuyacak kişi de o gün acele eden kişi oluyor.
+Bir projeye başlarken önce ekranı değil veriyi düşünüyorum, çünkü veri modeli koddan uzun
+yaşıyor. Müşteri Sipariş Takip'te "ödendi mi" sorusunun cevabı siparişteki bir alan değil: ödeme
+tahsilata bağlı, bakiye türetilmiş bir değer. Siparişe tek bir "ödendi" alanı koymak daha kolay
+olurdu ama üç parçalı tahsilatta o alan yalan söylüyor. Çok kiracılı sistemlerde kiracı kimliği
+sessiz bir varsayım değil, modüller arası çağrıda zorunlu parametre.
+
+### Backend ve API
+
+İş kurallarını HTTP'ye bağlamıyorum. Bakım-onarım sisteminde her modül application / domain /
+infrastructure diye ayrılmış durumda ve domain katmanı saf TypeScript: Nest, Prisma, HTTP import
+etmiyor. Aynı servis hem API'den hem kuyruk tüketicisinden çağrılıyor. Bu katman kurallarını
+dependency-cruiser denetliyor, yani kural dokümanda kalıp çürümüyor. Modülün dışa açık yüzeyi tek
+bir `index.ts`; başka modülün repository'sine veya tablosuna doğrudan yazmıyorum. İstemci tarafını
+elle yazmıyorum: API'nin OpenAPI çıktısından üretiliyor, böylece alan adı değiştiğinde istemci
+sessizce eskimesin.
+
+### Arayüz
+
+Web'de React, Next.js ve Angular, mobilde Flutter kullanıyorum; kararlar aynı kalıyor. Boş hâl,
+yükleniyor hâli ve hata hâli sonradan eklenen şeyler değil, ekranın parçası. Responsive'i işin
+sonunda düzeltmiyorum, ilk günden 360 px'te bozulmayacak şekilde kuruyorum. Flutter'da tek kod
+tabanından iOS ve Android çıkıyor; platforma özel davranan yeri ayırıyorum, geri kalanı ortak
+kalıyor.
+
+### Oyun
+
+Oyun tarafında ölçülebilirlik bana görselden önce geliyor. Taskbar Hero'da savaş motoru saf Kotlin
+ve arayüzden tamamen ayrı, simülasyon sabit adımlı. Aynı seed aynı sonucu verdiği için bir denge
+değişikliğini tahminle değil JVM testiyle karşılaştırıyorum; cihaz ya da emülatör açmam
+gerekmiyor. Unity tarafında hypercasual oyunlarda level, mekanik, fizik ve kontrol sistemleri
+üzerinde çalıştım; 23 prototip `unity-prototypes-archive` içinde duruyor.
+
+### Kararlar ve dokümantasyon
+
+Kararları kafamda tutmuyorum, repoda bırakıyorum; bir şeyi neden öyle yaptığımı altı ay sonra
+kendim de hatırlamıyorum. Neyi yapmamaya karar verdiğimi de yazıyorum, çünkü asıl tartışma "bunu
+neden yapmadın" sorusunda çıkıyor ve cevabı yazmazsam her ay baştan tartışılıyor. README'ler
+mimariyi övmüyor, sınırları anlatıyor: ne nerede duruyor, neyin oraya girmemesi gerekiyor.
+
+### Dağıtım ve ortam
+
+Geliştirme, test ve üretim birbirinden ayrı. Üretimde varsayılan şifreyle seed çalıştırmayı kodla
+kapatıyorum; kuralı yazmak yetmiyor, çünkü kuralı okuyacak kişi de o gün acele eden kişi oluyor.
+Dağıtımda Docker kullanıyorum, migration'ı dağıtımın parçası sayıyorum ve sırları repoya
+koymuyorum. Testler ve tip kontrolü geçmeden birleştirme yapmıyorum.
+
+### Çalışma biçimi
+
+Büyük bir teslimle gelmek yerine uçtan uca çalışan küçük bir dilimle başlıyorum, sonra üstüne
+ekliyorum. Emin olmadığım yerde soruyorum; özellikle kapsam ve öncelik konusunda tahmin yürütmek
+sonra daha pahalıya patlıyor. Bir şeyi yapmamayı önerdiysem sebebini de söylüyorum, sadece
+"olmaz" demiyorum.
 
 ---
 

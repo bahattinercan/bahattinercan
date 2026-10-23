@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="309" viewBox="0 0 1100 309" role="img" aria-label="985 katkı, son 12 ay, 113 aktif gün">
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="309" viewBox="0 0 1100 309" role="img" aria-label="1116 katkı, son 12 ay, 115 aktif gün">
 <defs>
 <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#1f883d"/><stop offset="1" stop-color="#0f766e"/></linearGradient>
 <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f1f8f5"/></linearGradient>
@@ -6,17 +6,17 @@
 <rect width="1100" height="309" rx="14" fill="url(#bg)"/>
 <rect x="0.5" y="0.5" width="1099" height="308" rx="14" fill="none" stroke="#d0d7de"/>
 <text x="30" y="42" font-family="'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="13" fill="#57606a" letter-spacing="2.4">SON 12 AY KATKI</text>
-<text x="1070" y="42" text-anchor="end" font-family="'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="13" fill="#57606a">19 Eki 2025 – 22 Eki 2026</text>
-<text x="30" y="102" font-family="'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="30" font-weight="700" fill="#1f2328">985</text>
+<text x="1070" y="42" text-anchor="end" font-family="'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="13" fill="#57606a">19 Eki 2025 – 23 Eki 2026</text>
+<text x="30" y="102" font-family="'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="30" font-weight="700" fill="#1f2328">1.116</text>
 <text x="30" y="124" font-family="'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="12" fill="#6e7681">toplam katkı</text>
-<text x="202" y="102" font-family="'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="30" font-weight="700" fill="#1f2328">113</text>
+<text x="202" y="102" font-family="'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="30" font-weight="700" fill="#1f2328">115</text>
 <text x="202" y="124" font-family="'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="12" fill="#6e7681">aktif gün</text>
-<text x="374" y="102" font-family="'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="30" font-weight="700" fill="#1f2328">0</text>
+<text x="374" y="102" font-family="'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="30" font-weight="700" fill="#1f2328">4</text>
 <text x="374" y="124" font-family="'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="12" fill="#6e7681">şu anki seri</text>
 <text x="546" y="102" font-family="'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="30" font-weight="700" fill="#1f2328">8 gün</text>
 <text x="546" y="124" font-family="'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="12" fill="#6e7681">en uzun seri</text>
-<text x="718" y="102" font-family="'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="30" font-weight="700" fill="#1f2328">103</text>
-<text x="718" y="124" font-family="'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="12" fill="#6e7681">en yoğun gün · 7 Eki</text>
+<text x="718" y="102" font-family="'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="30" font-weight="700" fill="#1f2328">116</text>
+<text x="718" y="124" font-family="'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="12" fill="#6e7681">en yoğun gün · 22 Eki</text>
 <rect x="30.0" y="152.0" width="15.2" height="15.2" rx="2.4" fill="#ebedf0"/>
 <rect x="30.0" y="171.0" width="15.2" height="15.2" rx="2.4" fill="#ebedf0"/>
 <rect x="30.0" y="190.0" width="15.2" height="15.2" rx="2.4" fill="#ebedf0"/>
@@ -384,9 +384,9 @@
 <rect x="1017.0" y="152.0" width="15.2" height="15.2" rx="2.4" fill="#40c463"/>
 <rect x="1017.0" y="171.0" width="15.2" height="15.2" rx="2.4" fill="#ebedf0"/>
 <rect x="1017.0" y="190.0" width="15.2" height="15.2" rx="2.4" fill="#9be9a8"/>
-<rect x="1017.0" y="208.9" width="15.2" height="15.2" rx="2.4" fill="#40c463"/>
-<rect x="1017.0" y="227.9" width="15.2" height="15.2" rx="2.4" fill="#ebedf0"/>
-<rect x="1017.0" y="246.9" width="15.2" height="15.2" rx="2.4" fill="none"/>
+<rect x="1017.0" y="208.9" width="15.2" height="15.2" rx="2.4" fill="#9be9a8"/>
+<rect x="1017.0" y="227.9" width="15.2" height="15.2" rx="2.4" fill="#216e39"/>
+<rect x="1017.0" y="246.9" width="15.2" height="15.2" rx="2.4" fill="#9be9a8"/>
 <rect x="1017.0" y="265.9" width="15.2" height="15.2" rx="2.4" fill="none"/>
 <text x="1041.2" y="185.2" font-family="'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="10" fill="#6e7681">Pzt</text>
 <text x="1041.2" y="223.1" font-family="'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="10" fill="#6e7681">Çar</text>

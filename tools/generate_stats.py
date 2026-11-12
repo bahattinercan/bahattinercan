@@ -19,7 +19,37 @@ OUT_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
                        "assets", "generated")
 URL = f"https://github.com/users/{USER}/contributions"
 
-MONTHS_TR = ["Oca", "Şub", "Mar", "Nis", "May", "Haz", "Tem", "Ağu", "Eyl", "Eki", "Kas", "Ara"]
+MONTHS = {
+    "en": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+    "tr": ["Oca", "Şub", "Mar", "Nis", "May", "Haz", "Tem", "Ağu", "Eyl", "Eki", "Kas", "Ara"],
+}
+
+# Kart iki dilde uretilir: README.md (Ingilizce) ve README.tr.md ayni veriyi kendi
+# dilinde gosterir; tek kaynak, iki cikti.
+LABELS = {
+    "en": {
+        "title": "LAST 12 MONTHS",
+        "total": "contributions",
+        "active": "active days",
+        "current": "current streak",
+        "best": "longest streak",
+        "best_day": "best day",
+        "days": ("Mon", "Wed", "Fri"),
+        "aria": "{total} contributions in the last 12 months, {active} active days",
+        "separator": ",",
+    },
+    "tr": {
+        "title": "SON 12 AY KATKI",
+        "total": "toplam katkı",
+        "active": "aktif gün",
+        "current": "şu anki seri",
+        "best": "en uzun seri",
+        "best_day": "en yoğun gün",
+        "days": ("Pzt", "Çar", "Cum"),
+        "aria": "{total} katkı, son 12 ay, {active} aktif gün",
+        "separator": ".",
+    },
+}
 
 THEMES = {
     "dark": {
@@ -83,17 +113,18 @@ def streaks(days):
     return cur, best
 
 
-def fmt(d):
+def fmt(d, lang="en"):
     y, m, dd = d.split("-")
-    return f"{int(dd)} {MONTHS_TR[int(m) - 1]}"
+    return f"{int(dd)} {MONTHS[lang][int(m) - 1]}"
 
 
 def esc(s):
     return (s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"))
 
 
-def render(days, theme_name):
+def render(days, theme_name, lang="en"):
     t = THEMES[theme_name]
+    lb = LABELS[lang]
     total = sum(n for _, n, _ in days)
     active = sum(1 for _, n, _ in days if n > 0)
     cur, best = streaks(days)
@@ -123,7 +154,7 @@ def render(days, theme_name):
     parts.append(
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" '
         f'viewBox="0 0 {W} {H}" role="img" '
-        f'aria-label="{total} katkı, son 12 ay, {active} aktif gün">'
+        f'aria-label="{lb["aria"].format(total=total, active=active)}">'
     )
     parts.append("<defs>")
     parts.append(
@@ -144,7 +175,7 @@ def render(days, theme_name):
     ff = "font-family=\"'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif\""
     parts.append(
         f'<text x="{PAD}" y="42" {ff} font-size="13" fill="{t["title"]}" '
-        f'letter-spacing="2.4">SON 12 AY KATKI</text>'
+        f'letter-spacing="2.4">{lb["title"]}</text>'
     )
     rng = f'{fmt(days[0][0])} {days[0][0][:4]} – {fmt(days[-1][0])} {days[-1][0][:4]}'
     parts.append(
@@ -153,11 +184,11 @@ def render(days, theme_name):
     )
 
     stats = [
-        (f"{total:,}".replace(",", "."), "toplam katkı"),
-        (str(active), "aktif gün"),
-        (f"{cur}", "şu anki seri"),
-        (f"{best} gün", "en uzun seri"),
-        (f'{best_day[1]}', f"en yoğun gün · {fmt(best_day[0])}"),
+        (f"{total:,}".replace(",", lb["separator"]), lb["total"]),
+        (str(active), lb["active"]),
+        (f"{cur}", lb["current"]),
+        (f"{best} gün" if lang == "tr" else f"{best} d", lb["best"]),
+        (f'{best_day[1]}', f'{lb["best_day"]} · {fmt(best_day[0], lang)}'),
     ]
     x = PAD
     for i, (val, lab) in enumerate(stats):
@@ -187,7 +218,7 @@ def render(days, theme_name):
 
     # gun etiketleri (Pzt/Car/Cum) — izgaranin saginda
     lx = PAD + grid_w + 9
-    for name, dowi in (("Pzt", 1), ("Çar", 3), ("Cum", 5)):
+    for name, dowi in zip(lb["days"], (1, 3, 5)):
         parts.append(
             f'<text x="{lx:.1f}" y="{grid_y + dowi * slot + CELL - 1:.1f}" '
             f'{ff} font-size="10" fill="{t["label"]}">{name}</text>'
@@ -204,11 +235,13 @@ def main():
     if len(days) < 30:
         raise SystemExit(f"beklenenden az gun dondu: {len(days)}")
     os.makedirs(OUT_DIR, exist_ok=True)
-    for theme, suffix in (("light", ""), ("dark", "-dark")):
-        svg = render(days, theme)
-        p = os.path.join(OUT_DIR, f"contributions{suffix}.svg")
-        io.open(p, "w", encoding="utf-8").write(svg)
-        print(f"  {os.path.basename(p):26s} {len(svg):>6} bayt")
+    for lang in ("en", "tr"):
+        stem = "contributions" if lang == "en" else "contributions-tr"
+        for theme, suffix in (("light", ""), ("dark", "-dark")):
+            svg = render(days, theme, lang)
+            p = os.path.join(OUT_DIR, f"{stem}{suffix}.svg")
+            io.open(p, "w", encoding="utf-8", newline=chr(10)).write(svg)
+            print(f"  {os.path.basename(p):28s} {len(svg):>6} bayt")
     total = sum(n for _, n, _ in days)
     active = sum(1 for _, n, _ in days if n > 0)
     print(f"{user}: {len(days)} gun, {total} katki, {active} aktif gun "

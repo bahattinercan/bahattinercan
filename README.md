@@ -1,366 +1,123 @@
 <div align="center">
 
-**Türkçe** &nbsp;·&nbsp; [English](README.en.md)
+**English** &nbsp;·&nbsp; [Türkçe](README.tr.md)
 
 <picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="assets/banner-mobile-dark.svg">
+  <source media="(prefers-color-scheme: light) and (max-width: 640px)" srcset="assets/banner-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
   <img src="assets/banner-dark.svg" alt="Bahattin Ercan, Computer Engineer" width="100%">
 </picture>
 
-<a href="mailto:bahattin.ercan.43@gmail.com"><img src="https://img.shields.io/badge/bahattin.ercan.43@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="E-posta"></a>
-<a href="cv/Bahattin-Ercan-CV-TR.pdf"><img src="https://img.shields.io/badge/CV-Türkçe-2dd4bf?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="CV (Türkçe)"></a>
-<a href="cv/Bahattin-Ercan-CV-EN.pdf"><img src="https://img.shields.io/badge/CV-English-2dd4bf?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="CV (English)"></a>
-<a href="https://bahattinercan-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolyo-39D353?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolyo"></a>
-<a href="https://www.linkedin.com/in/bahattin-ercan"><img src="https://img.shields.io/badge/bahattin--ercan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="https://bahattinercan-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolio-1f883d?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio"></a>
+<a href="cv/Bahattin-Ercan-CV-EN.pdf"><img src="https://img.shields.io/badge/CV-PDF-0f766e?style=flat-square&logo=adobeacrobatreader&logoColor=white" alt="CV (PDF)"></a>
+<a href="mailto:bahattin.ercan.43@gmail.com"><img src="https://img.shields.io/badge/E--mail-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="E-mail"></a>
+<a href="https://www.linkedin.com/in/bahattin-ercan"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 
 </div>
 
-## Kısaca
+## In short
 
-2019'dan beri kod yazıyorum, 4+ yılı profesyonel. **Django ve Django REST Framework** ile REST API,
-JWT kimlik doğrulama ve rol bazlı yetkilendirme sistemleri; **Node.js/Express** ile servis katmanları;
-**Flutter** ile tek kod tabanından iOS ve Android uygulamaları geliştiriyorum.
+Computer engineer. Code since 2019, 4+ years professional. REST APIs, JWT authentication and
+role-based authorization with **Django/DRF**; iOS and Android from one codebase with **Flutter**;
+interfaces with **React/Next.js**; hypercasual games with **Unity/C#**.
 
-Web tarafında React, Next.js ve Angular ile arayüz kuruyorum; oyun tarafında Unity ve C# ile
-hypercasual mobil oyunlar geliştirip yayınladım. Veritabanı şeması, migration'lar ve Docker ile
-dağıtım bu dört alanın ortak zemini.
+English **C1** · open to remote work abroad and on-site in Türkiye · available now.
 
-İngilizce **C1** · yurt dışı remote ve Türkiye'de yerinde çalışmaya açığım · hemen başlayabilirim.
-
-<sub>Bu sayfanın tamamının İngilizcesi: **[README.en.md](README.en.md)**</sub>
-
----
-
-## Ne yapıyorum
-
-| | |
-|---|---|
-| **Backend ve API** | Django / DRF ile REST API, JWT kimlik doğrulama, rol bazlı yetkilendirme, WebSocket ile gerçek zamanlı akış. Node.js/Express servis katmanları; PostgreSQL şema tasarımı ve migration'lar |
-| **Web** | React, Next.js ve Angular ile arayüz. API entegrasyonu, responsive yerleşim, yönetim panelleri ve veri yoğun tablo ekranları |
-| **Mobil ve masaüstü** | Flutter ile tek kod tabanından iOS ve Android yayınlama, Windows masaüstü uygulamaları, React Native |
-| **Oyun** | Unity ve C# ile hypercasual mobil oyunlar. Level tasarımı, oyun mekaniği, kontrol ve fizik sistemleri; AdMob ve Unity Ads ile monetizasyon |
-
----
-
-## Deneyim
-
-| Rol | Kapsam | Dönem |
-|---|---|---|
-| **Backend & Mobil Geliştirici** | Django/DRF ile web platformları, servisler ve REST API'ler; Flutter ile tek kod tabanından iOS/Android yayınlama; web ve mobil istemcilerle backend entegrasyonu | 2026 |
-| **Askerlik hizmeti** | Uzun dönem | 2025 – 2026 |
-| **Full Stack Geliştirici** | Flutter ile ölçeklenebilir modüler mimari (Provider, Fluro, GetIt, Dio); Node.js/Express REST API ve JWT + rol bazlı yetkilendirme; PostgreSQL şema tasarımı ve Sequelize migration'ları; Docker ile taşınabilir dağıtım; Google Maps, Firebase, bildirim ve WebSocket entegrasyonları | 2023 – 2024 |
-| **IoT & Mobil Geliştirici** | Raspberry Pi + Node.js + Flutter ile ozon hava iyileştirme cihazına anlık uzaktan kontrol ve otomasyon; canlı veri takibi ve güvenli haberleşme; rol, izin ve kullanıcı durumu yöneten admin mimarisi (Flutter mobil + web panelleri) | 2022 – 2023 |
-| **Unity / C# Oyun Geliştirici** | Hypercasual mobil oyunlar: level tasarımı, oyun mekaniği, kontrol ve fizik sistemleri; AdMob ve Unity Ads monetizasyonu; CPI testleri ve retention analizi | 2022 |
-| **Yazılım Stajyeri** | PHP, Angular, Node.js ile kurumsal projelerde geliştirme; frontend ve backend tarafında tam döngü | 2021 |
-
-<sub>İşveren adları kamuya açık profilde paylaşılmıyor; süreçte ve CV'de belirtiliyor.</sub>
-
----
-
-## Öne çıkan projeler
+## Selected work
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://github.com/bahattinercan/local-ai-news"><img src="assets/projects/openweight-radar.webp" alt="OpenWeight Radar, model listesi ve filtre paneli" width="100%"></a>
+<a href="https://local-ai-news.vercel.app"><img src="assets/projects/openweight-radar.webp" alt="OpenWeight Radar: model list and filter panel" width="100%"></a>
 
-### OpenWeight Radar &nbsp;·&nbsp; [canlı](https://local-ai-news.vercel.app)
+### [OpenWeight Radar](https://local-ai-news.vercel.app)
 
-Yerelde çalıştırılabilir **açık ağırlıklı AI modellerini** kategori sekmeleriyle takip eden, haber akışı zamanlanmış olarak güncellenen izleme sitesi.
+Tracking site for open-weight AI models you can run locally; the feed refreshes on a schedule.
 
-`Next.js 16` `TypeScript` `Hugging Face` `GitHub Actions`
+<sub>Next.js 16 · TypeScript · Hugging Face</sub>
 
-<sub>Sınıflandırma mantığı 40 fixture'lık regresyon kapısıyla kilitli; kaynak sağlığı ayrı raporlanıyor.</sub>
-
-</td>
-<td width="50%" valign="top">
-
-<a href="https://github.com/bahattinercan/beauty-salon"><img src="assets/projects/beauty-salon.webp" alt="Güzellik salonu platformu, müşteri uygulaması ve admin paneli" width="100%"></a>
-
-### Güzellik Salonu Platformu
-
-Çok kiracılı salon yönetimi: API, web yönetim paneli ve iki Flutter uygulaması. Tek kod tabanı, dört istemci.
-
-`Express` `Sequelize` `Next.js` `Flutter`
-
-<sub>535 test · kiracı izolasyonu test edilmiş · üretimde varsayılan şifreyle çalışmak kodla engelli.</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<a href="https://github.com/bahattinercan/russia-plague-website"><img src="assets/projects/plague-tracker.webp" alt="Plague Tracker, kaynak izleme panosu" width="100%"></a>
-
-### Plague Tracker &nbsp;·&nbsp; [canlı](https://plague-tracker.vercel.app)
-
-Haber iddialarını **kaç bağımsız kaynağın bildirdiğine** göre etiketleyen izleme platformu. Sistem hiçbir yerde "doğrulandı" demez; yalnızca kimin ne bildirdiğini raporlar.
-
-`Next.js` `TypeScript` `Drizzle ORM` `Vercel`
-
-<sub>Beş etiket seviyesi, bağımsızlık grupları ve kaynak sağlığı takibi; TR/EN.</sub>
+Classification is locked by a 40-fixture regression gate.
 
 </td>
 <td width="50%" valign="top">
 
-<a href="https://github.com/bahattinercan/barber_shops"><img src="assets/projects/barber-shops.webp" alt="Berber randevu uygulaması, giriş, kayıt ve salon ekranları" width="100%"></a>
+<a href="https://github.com/bahattinercan/beauty-salon"><img src="assets/projects/beauty-salon.webp" alt="Beauty salon platform: customer app and admin panel" width="100%"></a>
 
-### Barber Shops
+### [Beauty Salon Platform](https://github.com/bahattinercan/beauty-salon)
 
-Berber randevu ve personel yönetimi. Flutter istemcisi ve Node.js/Express REST API'si; müdür, çalışan ve admin rolleri.
+Multi-tenant salon management: API, web admin and two Flutter apps. One backend, four clients.
 
-`Flutter` `Dart` `Node.js` `Express`
+<sub>Express · Sequelize · Next.js · Flutter</sub>
 
-<sub>Randevu, dükkan, servis, yorum ve favori akışlarının tamamı rol bazlı yetkilendirmeyle korunuyor.</sub>
+535 tests · tenant isolation tested · default-password seeds blocked in code.
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://github.com/bahattinercan/doner-website"><img src="assets/projects/doner-website.webp" alt="Döner sipariş sitesi, ana sayfa" width="100%"></a>
+<a href="https://plague-tracker.vercel.app"><img src="assets/projects/plague-tracker.webp" alt="Plague Tracker: source monitoring dashboard" width="100%"></a>
 
-### Döner Sipariş Sitesi &nbsp;·&nbsp; [canlı](https://doner-website.vercel.app)
+### [Plague Tracker](https://plague-tracker.vercel.app)
 
-Lokanta için **sıfır bağımlılık** statik sipariş sitesi: WhatsApp üzerinden sipariş, gece modu, localStorage sepet.
+Labels news claims by **how many independent sources report them**. It never says "confirmed";
+it reports who said what.
 
-`HTML` `CSS` `JavaScript` `MIT`
+<sub>Next.js · TypeScript · Drizzle ORM · Vercel</sub>
 
-<sub>Derleme adımı ve framework yok: dosyayı kopyala, çalışır. Küçük işletmeler için bakımı bedava.</sub>
+Five label levels, independence groups, source health; TR/EN.
 
 </td>
 <td width="50%" valign="top">
 
-<img src="assets/projects/siparis-takip.webp" alt="Müşteri Sipariş Takip Sistemi, müşteriler ekranı" width="100%">
+<a href="https://github.com/bahattinercan/case-studies/blob/main/docs/musteri-siparis-takip.md"><img src="assets/projects/siparis-takip.webp" alt="Customer Order Tracker: customers screen" width="100%"></a>
 
-### Müşteri Sipariş Takip
+### [Order Tracker](https://github.com/bahattinercan/case-studies/blob/main/docs/musteri-siparis-takip.md)
 
-İmalat atölyesi için sipariş → üretim → tahsilat takibi. Windows masaüstü, çevrimdışı, veriler yerel SQLite'ta.
+Order → production → collection tracking for a manufacturing workshop. Windows desktop,
+offline, local SQLite. Source is private; the case study is public.
 
-`Flutter` `Dart` `SQLite` `Windows`
+<sub>Flutter · Dart · SQLite · Windows</sub>
 
-<sub>725 test · kullanıcı tanımlı üretim aşamaları · kısmi tahsilat · çevrimdışı doğrulanan lisans.<br>[Vaka çalışması](https://github.com/bahattinercan/case-studies/blob/main/docs/musteri-siparis-takip.md)</sub>
+725 tests · partial payments · offline licence verification.
 
 </td>
 </tr>
 </table>
 
-### Bunların dışında
+<div align="center">
 
-Bazı işler **özel repolarda** yürüyor. Kodları yayınlanmıyor ama mühendislik anlatımları
-[kaynak kodu özel olan dört ürünün vaka çalışmaları](https://github.com/bahattinercan/case-studies)
-altında: problem, mimari, ölçülmüş kanıt ve bilinen sınırlar.
+<sub>Six public projects, four closed-source case studies, full experience and stack:
+**[portfolio](https://bahattinercan-portfolio.vercel.app)** ·
+**[how I work](https://bahattinercan-portfolio.vercel.app/#yaklasim)**</sub>
 
-- **[Bakım Onarım Yönetim Sistemi (CMMS)](https://github.com/bahattinercan/case-studies/blob/main/docs/bakim-onarim-yonetim.md)**:
-  Çok şirketli bakım süreci (arıza → SLA → iş emri → saha → kapanış). Katman sınırları otomatik
-  denetleniyor, API sözleşme kayması CI'da yakalanıyor.
-- **[Taskbar Hero](https://github.com/bahattinercan/case-studies/blob/main/docs/new-taskbar-hero.md)**:
-  Android için idle RPG. Savaş motoru saf Kotlin ve sabit adımlı: aynı seed aynı sonucu üretir,
-  denge ölçümü 101 testle tekrarlanabilir.
-- **[JobRadar](https://github.com/bahattinercan/case-studies/blob/main/docs/find-job.md)**:
-  7 kaynaktan ilan toplayan, normalize eden, tekilleştiren ve deterministik skorlayan sistem.
-- **Mavi Konak QR Menü**: Kütahya çini motiflerinden esinlenmiş kafe menüsü sitesi (kaynak özel).
-- **[Unity prototip arşivi](https://github.com/bahattinercan/unity-prototypes-archive)**: 2022–2023 arasında
-  C# ile geliştirilmiş 23 oynanabilir prototip: hiper-casual, ritim, match-3, üs savunma, VR.
-- **E-ticaret üçlüsü**: React vitrin, React admin paneli ve Express + MongoDB backend.
+</div>
 
----
+## Stack
 
-## Teknoloji
+**Django** · DRF · **Node.js** · NestJS · **Flutter** · TypeScript · React/Next.js · Angular ·
+PostgreSQL · Docker · Git
 
-**Backend**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![DRF](https://img.shields.io/badge/DRF-A30000?style=for-the-badge&logo=django&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-
-**Veri**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=sequelize&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-DD2C00?style=for-the-badge&logo=firebase&logoColor=white)
-
-**Mobil ve masaüstü**
-
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-![React Native](https://img.shields.io/badge/React%20Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white)
-
-**Web**
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-
-**Oyun ve sistem**
-
-![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white)
-![Unity](https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white)
-![Unreal](https://img.shields.io/badge/Unreal%20Engine-0E1128?style=for-the-badge&logo=unrealengine&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-**Araçlar**
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-
----
-
-## Nasıl çalışıyorum
-
-### Testler
-
-Testleri genelde ilk akla gelen yerden başlatmıyorum. Çöken ekran kendini belli ediyor, çoğu
-zaman aynı gün düzeltiliyor; asıl mesele hiçbir yerde hata vermeden yanlış sonuç üreten kod.
-Müşteri Sipariş Takip'te 725 testin çoğu bu yüzden var: kısmi tahsilat, bakiye, üretim aşaması
-geçişleri. Güzellik Salonu'nda 535, Taskbar Hero'da 101, bakım-onarım sisteminde 68 test dosyası.
-Test sayısını kendi başına bir başarı olarak görmüyorum; işe yaradığı yer, bir şeyi değiştirirken
-korkmamam.
-
-### Veri modeli
-
-Bir projeye başlarken önce ekranı değil veriyi düşünüyorum, çünkü veri modeli koddan uzun
-yaşıyor. Müşteri Sipariş Takip'te "ödendi mi" sorusunun cevabı siparişteki bir alan değil: ödeme
-tahsilata bağlı, bakiye türetilmiş bir değer. Siparişe tek bir "ödendi" alanı koymak daha kolay
-olurdu ama üç parçalı tahsilatta o alan yalan söylüyor. Çok kiracılı sistemlerde kiracı kimliği
-sessiz bir varsayım değil, modüller arası çağrıda zorunlu parametre.
-
-### Backend ve API
-
-İş kurallarını HTTP'ye bağlamıyorum. Bakım-onarım sisteminde her modül application / domain /
-infrastructure diye ayrılmış durumda ve domain katmanı saf TypeScript: Nest, Prisma, HTTP import
-etmiyor. Aynı servis hem API'den hem kuyruk tüketicisinden çağrılıyor. Bu katman kurallarını
-dependency-cruiser denetliyor, yani kural dokümanda kalıp çürümüyor. Modülün dışa açık yüzeyi tek
-bir `index.ts`; başka modülün repository'sine veya tablosuna doğrudan yazmıyorum. İstemci tarafını
-elle yazmıyorum: API'nin OpenAPI çıktısından üretiliyor, böylece alan adı değiştiğinde istemci
-sessizce eskimesin.
-
-### Arayüz
-
-Web'de React, Next.js ve Angular, mobilde Flutter kullanıyorum; kararlar aynı kalıyor. Boş hâl,
-yükleniyor hâli ve hata hâli sonradan eklenen şeyler değil, ekranın parçası. Responsive'i işin
-sonunda düzeltmiyorum, ilk günden 360 px'te bozulmayacak şekilde kuruyorum. Flutter'da tek kod
-tabanından iOS ve Android çıkıyor; platforma özel davranan yeri ayırıyorum, geri kalanı ortak
-kalıyor.
-
-### Oyun
-
-Oyun tarafında ölçülebilirlik bana görselden önce geliyor. Taskbar Hero'da savaş motoru saf Kotlin
-ve arayüzden tamamen ayrı, simülasyon sabit adımlı. Aynı seed aynı sonucu verdiği için bir denge
-değişikliğini tahminle değil JVM testiyle karşılaştırıyorum; cihaz ya da emülatör açmam
-gerekmiyor. Unity tarafında hypercasual oyunlarda level, mekanik, fizik ve kontrol sistemleri
-üzerinde çalıştım; 23 prototip `unity-prototypes-archive` içinde duruyor.
-
-### Kararlar ve dokümantasyon
-
-Kararları kafamda tutmuyorum, repoda bırakıyorum; bir şeyi neden öyle yaptığımı altı ay sonra
-kendim de hatırlamıyorum. Neyi yapmamaya karar verdiğimi de yazıyorum, çünkü asıl tartışma "bunu
-neden yapmadın" sorusunda çıkıyor ve cevabı yazmazsam her ay baştan tartışılıyor. README'ler
-mimariyi övmüyor, sınırları anlatıyor: ne nerede duruyor, neyin oraya girmemesi gerekiyor.
-
-### Dağıtım ve ortam
-
-Geliştirme, test ve üretim birbirinden ayrı. Üretimde varsayılan şifreyle seed çalıştırmayı kodla
-kapatıyorum; kuralı yazmak yetmiyor, çünkü kuralı okuyacak kişi de o gün acele eden kişi oluyor.
-Dağıtımda Docker kullanıyorum, migration'ı dağıtımın parçası sayıyorum ve sırları repoya
-koymuyorum. Testler ve tip kontrolü geçmeden birleştirme yapmıyorum.
-
-### Ekip içi çalışma
-
-Ekipte en çok işe yarayan şeyin kod yazma hızı değil devredilebilirlik olduğunu düşünüyorum; bir işi
-bitirdiğimde sorduğum soru "çalışıyor mu" değil, "ben yokken de yürür mü". İncelemeye küçük ve tek
-amaçlı değişiklikler gönderiyorum, çünkü içinde iki ayrı iş olan bir PR okunmuyor ve geri alınması
-gerektiğinde ikisini birden götürüyor. Yorumu koda yazıyorum, kişiye değil; "bunu neden böyle
-yaptın" yerine "şu durumda ne oluyor" diye soruyorum, çünkü ikincisi cevap alıyor.
-
-Stil tartışmasını otomatiğe bağlıyorum: biçimlendirici, linter, tip kontrolü ve testler CI'da
-çalışıyorsa tartışılacak bir şey kalmıyor. Katılmadığım bir karar verildiğinde gerekçemi bir kez
-söyleyip uyguluyorum, itirazı da yazıya geçiriyorum; sözlü kalan itiraz üç ay sonra "ben
-demiştim"e dönüşüyor ve kimseye faydası olmuyor. Yeni gelen birine düzeltmeyi göstermekle kalmayıp
-nedenini de söylüyorum, bir sonraki benzer durumda sormak zorunda kalmasın diye.
-
-### İş akışı ve kapsam
-
-Büyük bir teslimle gelmek yerine uçtan uca çalışan küçük bir dilimle başlıyorum, sonra üstüne
-ekliyorum. Emin olmadığım yerde soruyorum; özellikle kapsam ve öncelik konusunda tahmin yürütmek
-sonra daha pahalıya patlıyor. Bir şeyi yapmamayı önerdiysem sebebini de söylüyorum, sadece
-"olmaz" demiyorum.
-
----
-
-## Eğitim ve sertifikalar
-
-**Dumlupınar Üniversitesi**: Bilgisayar Mühendisliği lisansı, 2019–2023 · GNO 3.05 / 4.00
-
-- UML ve Nesne Yönelimli Tasarım Temelleri · Karoly Nyisztor, 2023
-- Unity ile Defans Oyunu · Code Monkey, 2021
-- Unreal Engine C++ Developer · Ben Tristem · GameDev.tv, 2020
-
-**Diller:** Türkçe (ana dil) · İngilizce (C1)
-
----
-
-## Sayılar
+## Contributions
 
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/generated/contributions-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/generated/contributions.svg">
-  <img src="assets/generated/contributions.svg" alt="Son 12 ayda katkı özeti ve günlük katkı ızgarası" width="100%">
+  <img src="assets/generated/contributions.svg" alt="Contribution summary and daily grid for the last 12 months" width="100%">
 </picture>
 
-<sub>Kart her gün otomatik yenileniyor ([`stats.yml`](.github/workflows/stats.yml), veri doğrudan
-katkı grafiğinden) ve **özel repolardaki katkıları da sayıyor**; hazır istatistik kartları bunu
-gösteremez. Bu yüzden buradaki sayı, üstteki aktivite grafiğiyle aynı kaynaktan gelir.</sub>
+<sub>Rebuilt daily from the contribution graph and **counts private repositories** too
+([`stats.yml`](.github/workflows/stats.yml)).</sub>
 
 </div>
 
----
-
-## Katkı grafiği
-
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bahattinercan/bahattinercan/output/github-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bahattinercan/bahattinercan/output/github-snake.svg">
-  <img src="https://raw.githubusercontent.com/bahattinercan/bahattinercan/output/github-snake.svg" alt="Katkı grafiği animasyonu" width="100%">
-</picture>
-
-</div>
-
----
-
-## İletişim
-
-<div align="center">
-
-İş görüşmesi veya proje için e-posta en hızlı yol. Özgeçmişin iki dilde sürümü ve
-vaka çalışmaları aşağıda.
-
-<a href="mailto:bahattin.ercan.43@gmail.com"><img src="https://img.shields.io/badge/E--posta%20g%C3%B6nder-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="E-posta gönder"></a>
-<a href="cv/Bahattin-Ercan-CV-TR.pdf"><img src="https://img.shields.io/badge/CV-Türkçe-2dd4bf?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="CV (Türkçe)"></a>
-<a href="cv/Bahattin-Ercan-CV-EN.pdf"><img src="https://img.shields.io/badge/CV-English-2dd4bf?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="CV (English)"></a>
-<a href="https://bahattinercan-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolyo-39D353?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolyo"></a>
-<a href="https://www.linkedin.com/in/bahattin-ercan"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+**Get in touch:** [bahattin.ercan.43@gmail.com](mailto:bahattin.ercan.43@gmail.com)
 
 </div>

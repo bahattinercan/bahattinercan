@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="260" viewBox="0 0 640 260" role="img" aria-label="Bahattin Ercan, Computer Engineer. Django / DRF · Node.js · Flutter · TypeScript · PostgreSQL. Kütahya, Turkey · 4+ years professional · English C1.">
+  <title>Bahattin Ercan — Computer Engineer</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.6" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f2f8f6"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1f883d"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+    <radialGradient id="glow-a" cx="0.08" cy="0.1" r="0.8">
+      <stop offset="0" stop-color="#1f883d" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#1f883d" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow-b" cx="0.95" cy="1" r="0.75">
+      <stop offset="0" stop-color="#0f766e" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#0f766e" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#1f2328" fill-opacity="0.10"/>
+    </pattern>
+    <clipPath id="frame">
+      <rect width="1280" height="260" rx="16"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+  <rect width="640" height="260" fill="url(#bg)"/>
+  <rect width="640" height="260" fill="url(#dots)"/>
+  <rect width="640" height="260" fill="url(#glow-a)"/>
+  <rect width="640" height="260" fill="url(#glow-b)"/>
+    <g font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace">
+    <text x="42" y="50" font-size="14" fill="#1f883d">~/bahattin</text>
+    <text x="133.7" y="50" font-size="14" fill="#6e7681">$</text>
+    <text x="149.8" y="50" font-size="14" fill="#1f2328">whoami</text>
+    <rect x="209.3" y="38.52" width="7.3" height="14" fill="#1f883d" fill-opacity="1"/>
+    </g>
+    <g font-family="'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif">
+      <text x="40" y="108" font-size="40" font-weight="700" fill="#1f2328">Bahattin Ercan</text>
+      <text x="42" y="136" font-size="14" fill="#57606a">Django / DRF · Node.js · Flutter</text>
+      <text x="42" y="157" font-size="14" fill="#57606a">TypeScript · PostgreSQL</text>
+    </g>
+    <g font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace">
+    <rect x="42" y="178" width="167.4" height="24" rx="12.0"
+          fill="#1f883d" fill-opacity="0.08"
+          stroke="#1f883d" stroke-opacity="0.45"/>
+    <text x="55" y="194.32" font-size="12"
+          fill="#1f883d">[ OK ] open to work</text>
+      <text x="42" y="232" font-size="12" fill="#6e7681">Kütahya, Turkey · 4+ years professional · English C1</text>
+    </g>
+  </g>
+
+  <rect x="0.5" y="0.5" width="639" height="259" rx="16" fill="none"
+        stroke="#1f883d" stroke-opacity="0.28"/>
+  <rect x="0" y="0" width="6" height="260" fill="url(#accent)"/>
+</svg>

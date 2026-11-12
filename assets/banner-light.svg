@@ -1,62 +1,58 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Bahattin Ercan, Computer Engineer. Django, DRF, Node.js, Flutter, TypeScript, PostgreSQL. Kütahya, Turkey.">
-  <title>Bahattin Ercan, Computer Engineer</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="220" viewBox="0 0 1280 220" role="img" aria-label="Bahattin Ercan, Computer Engineer. Django / DRF · Node.js · Flutter · TypeScript · PostgreSQL. Kütahya, Turkey · 4+ years professional · English C1.">
+  <title>Bahattin Ercan — Computer Engineer</title>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="0.55" stop-color="#ffffff"/>
-      <stop offset="1" stop-color="#eef6f3"/>
+      <stop offset="0.6" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f2f8f6"/>
     </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#1f883d"/>
       <stop offset="1" stop-color="#0f766e"/>
     </linearGradient>
-    <linearGradient id="bar" x1="0" y1="1" x2="0" y2="0">
-      <stop offset="0" stop-color="#1f883d" stop-opacity="0.70"/>
-      <stop offset="1" stop-color="#0f766e" stop-opacity="0.30"/>
-    </linearGradient>
-    <radialGradient id="glow-a" cx="0.12" cy="0.15" r="0.75">
-      <stop offset="0" stop-color="#1f883d" stop-opacity="0.13"/>
+    <radialGradient id="glow-a" cx="0.08" cy="0.1" r="0.8">
+      <stop offset="0" stop-color="#1f883d" stop-opacity="0.10"/>
       <stop offset="1" stop-color="#1f883d" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="glow-b" cx="0.92" cy="0.95" r="0.7">
-      <stop offset="0" stop-color="#0f766e" stop-opacity="0.13"/>
+    <radialGradient id="glow-b" cx="0.95" cy="1" r="0.75">
+      <stop offset="0" stop-color="#0f766e" stop-opacity="0.10"/>
       <stop offset="1" stop-color="#0f766e" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
       <circle cx="1.5" cy="1.5" r="1.5" fill="#1f2328" fill-opacity="0.10"/>
     </pattern>
     <clipPath id="frame">
-      <rect width="1280" height="320" rx="16"/>
+      <rect width="1280" height="220" rx="16"/>
     </clipPath>
   </defs>
-
   <g clip-path="url(#frame)">
-    <rect width="1280" height="320" fill="url(#bg)"/>
-    <rect width="1280" height="320" fill="url(#dots)"/>
-    <rect x="-340" y="-220" width="1960" height="760" fill="url(#glow-a)"/>
-    <rect x="-340" y="-220" width="1960" height="760" fill="url(#glow-b)"/>
 
-    <!-- sag taraftaki soyut aktivite grafigi -->
-    <g transform="translate(944 118)">
-      <rect x="0"   y="96" width="20" height="22"  rx="3" fill="url(#bar)"/>
-      <rect x="30"  y="66" width="20" height="52"  rx="3" fill="url(#bar)"/>
-      <rect x="60"  y="34" width="20" height="84"  rx="3" fill="url(#bar)"/>
-      <rect x="90"  y="78" width="20" height="40"  rx="3" fill="url(#bar)"/>
-      <rect x="120" y="48" width="20" height="70"  rx="3" fill="url(#bar)"/>
-      <rect x="150" y="14" width="20" height="104" rx="3" fill="url(#bar)"/>
-      <rect x="180" y="62" width="20" height="56"  rx="3" fill="url(#bar)"/>
-      <rect x="210" y="86" width="20" height="32"  rx="3" fill="url(#bar)"/>
-      <line x1="0" y1="118" x2="230" y2="118" stroke="#1f883d" stroke-opacity="0.35" stroke-width="1"/>
+  <rect width="1280" height="220" fill="url(#bg)"/>
+  <rect width="1280" height="220" fill="url(#dots)"/>
+  <rect width="1280" height="220" fill="url(#glow-a)"/>
+  <rect width="1280" height="220" fill="url(#glow-b)"/>
+    <g font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace">
+    <text x="72" y="62" font-size="16" fill="#1f883d">~/bahattin</text>
+    <text x="176.8" y="62" font-size="16" fill="#6e7681">$</text>
+    <text x="195.2" y="62" font-size="16" fill="#1f2328">whoami</text>
+    <rect x="263.2" y="48.88" width="8.3" height="16" fill="#1f883d" fill-opacity="1"/>
+    </g>
+    <g font-family="'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif">
+      <text x="70" y="128" font-size="46" font-weight="700" fill="#1f2328">Bahattin Ercan</text>
+      <text x="72" y="160" font-size="16" fill="#57606a">Django / DRF · Node.js · Flutter · TypeScript · PostgreSQL</text>
+    </g>
+    <g font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace">
+    <rect x="72" y="176" width="179.1" height="26" rx="13.0"
+          fill="#1f883d" fill-opacity="0.08"
+          stroke="#1f883d" stroke-opacity="0.45"/>
+    <text x="85" y="193.68" font-size="13"
+          fill="#1f883d">[ OK ] open to work</text>
+      <text x="264.1" y="193" font-size="13"
+            fill="#6e7681">Kütahya, Turkey · 4+ years professional · English C1</text>
     </g>
   </g>
 
-  <rect x="0.5" y="0.5" width="1279" height="319" rx="16" fill="none" stroke="#1f883d" stroke-opacity="0.20"/>
-  <rect x="0" y="0" width="6" height="320" fill="url(#accent)"/>
-
-  <g font-family="'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif">
-    <text x="72" y="96" font-size="14" font-weight="600" letter-spacing="4" fill="#1a7f37">COMPUTER&#160;ENGINEER</text>
-    <text x="70" y="170" font-size="58" font-weight="700" fill="#1f2328">Bahattin Ercan</text>
-    <text x="72" y="212" font-size="17" fill="#57606a">Django / DRF · Node.js · Flutter · TypeScript · PostgreSQL</text>
-    <text x="72" y="252" font-size="14" fill="#6e7681">Kütahya, Turkey · 4+ years of professional experience · English C1</text>
-  </g>
+  <rect x="0.5" y="0.5" width="1279" height="219" rx="16" fill="none"
+        stroke="#1f883d" stroke-opacity="0.28"/>
+  <rect x="0" y="0" width="6" height="220" fill="url(#accent)"/>
 </svg>

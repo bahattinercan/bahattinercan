@@ -21,10 +21,10 @@ SANS = "'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif"
 MONO = "'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace"
 
 NAME = "Bahattin Ercan"
-ROLE = "COMPUTER ENGINEER"
-STACK = "Django / DRF \u00b7 Node.js \u00b7 Flutter \u00b7 TypeScript \u00b7 PostgreSQL"
+ROLE = "SOFTWARE ENGINEER · PRODUCT BUILDER"
+STACK = "I turn complex workflows into software people can use."
 # Mobil varyant: 640 px genislikte tek satir okunmuyor, iki satira bolunur.
-STACK_MOBILE = ["Django / DRF \u00b7 Node.js \u00b7 Flutter", "TypeScript \u00b7 PostgreSQL"]
+STACK_MOBILE = ["I turn complex workflows into", "software people can use."]
 META = "K\u00fctahya, Turkey \u00b7 4+ years professional \u00b7 English C1"
 PROMPT_DIR = "~/bahattin"
 PROMPT_CMD = "whoami"
@@ -140,7 +140,7 @@ def banner(t, theme_name):
 {prompt(t, 72, 62, 16)}    </g>
     <g font-family="{SANS}">
       <text x="70" y="128" font-size="46" font-weight="700" fill="{t['fg']}">{NAME}</text>
-      <text x="72" y="160" font-size="16" fill="{t['muted']}">{STACK}</text>
+      <text x="72" y="160" font-size="18" fill="{t['muted']}">{STACK}</text>
     </g>
     <g font-family="{MONO}">
 {chip(t, 72, 176)}{'      '}<text x="{round(len(CHIP) * 13 * 0.62 + 72 + 39, 1)}" y="193" font-size="13"
@@ -159,7 +159,7 @@ def banner_mobile(t):
     """Mobil banner: 640x260, tipografi buyutulmus, stack iki satir."""
     w, h = 640, 260
     stack = "".join(
-        f'      <text x="42" y="{136 + i * 21}" font-size="14" fill="{t["muted"]}">{line}</text>' + chr(10)
+        f'      <text x="42" y="{136 + i * 21}" font-size="16" fill="{t["muted"]}">{line}</text>' + chr(10)
         for i, line in enumerate(STACK_MOBILE)
     )
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="{NAME}, {ROLE.title()}. {STACK}. {META}.">

@@ -17,13 +17,14 @@
 
 </div>
 
-## Kısaca
+## Fikirden çalışan ürüne
 
-Bilgisayar mühendisi. 2019'dan beri kod yazıyorum, 4+ yılı profesyonel. **Django/DRF** ile REST API,
-JWT kimlik doğrulama ve rol bazlı yetkilendirme; **Flutter** ile tek kod tabanından iOS ve Android;
-**React/Next.js** ile arayüz; **Unity/C#** ile hypercasual oyunlar.
+Karmaşık iş akışlarını, insanların rahatça kullanacağı yazılımlara dönüştürüyorum. Bir ürünü API'si,
+veri modeli, yetkileri ve kullanıcı akışıyla birlikte ele alıyorum. Django/DRF, Node.js, Flutter ve
+React/Next.js ile web ve mobil ürünler geliştiriyorum.
 
-İngilizce **C1** · yurt dışı remote ve Türkiye'de yerinde çalışmaya açık · hemen başlayabilirim.
+2019'dan beri kod yazıyorum; 4+ yıl profesyonel deneyimim var. İngilizce seviyem **C1**.
+Yurt dışına uzaktan, Türkiye'de uzaktan veya yerinde çalışmaya açığım.
 
 ## Seçili işler
 
@@ -96,10 +97,10 @@ Kaynak kodu özel, vaka çalışması açık.
 
 </div>
 
-## Yığın
+## Kullandığım araçlar
 
-**Django** · DRF · **Node.js** · NestJS · **Flutter** · TypeScript · React/Next.js · Angular ·
-PostgreSQL · Docker · Git
+- **Ürün:** Flutter · React · Next.js · Angular · Unity/C#
+- **API ve veri:** Django/DRF · Node.js · NestJS · PostgreSQL · Docker · Git
 
 ## Katkı
 

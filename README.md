@@ -17,13 +17,14 @@
 
 </div>
 
-## In short
+## From idea to working product
 
-Computer engineer. Code since 2019, 4+ years professional. REST APIs, JWT authentication and
-role-based authorization with **Django/DRF**; iOS and Android from one codebase with **Flutter**;
-interfaces with **React/Next.js**; hypercasual games with **Unity/C#**.
+I turn complex workflows into software people can use with confidence. I work across the API,
+data model, permissions and user flows that make a product hold together. I build web and mobile
+products with Django/DRF, Node.js, Flutter and React/Next.js.
 
-English **C1** · open to remote work abroad and on-site in Türkiye · available now.
+I've been coding since 2019, with 4+ years of professional experience. English: **C1**.
+Open to remote roles abroad and remote or on-site work in Türkiye.
 
 ## Selected work
 
@@ -96,10 +97,10 @@ offline, local SQLite. Source is private; the case study is public.
 
 </div>
 
-## Stack
+## Tools I use
 
-**Django** · DRF · **Node.js** · NestJS · **Flutter** · TypeScript · React/Next.js · Angular ·
-PostgreSQL · Docker · Git
+- **Products:** Flutter · React · Next.js · Angular · Unity/C#
+- **APIs and data:** Django/DRF · Node.js · NestJS · PostgreSQL · Docker · Git
 
 ## Contributions
 

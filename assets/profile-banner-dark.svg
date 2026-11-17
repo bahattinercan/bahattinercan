@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="220" viewBox="0 0 1280 220" role="img" aria-label="Bahattin Ercan, Software Engineer · Product Builder. I turn complex workflows into software people can use.. Kütahya, Turkey · 4+ years professional · English C1.">
+  <title>Bahattin Ercan — Software Engineer · Product Builder</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="0.6" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#101a24"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#39d353"/>
+      <stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+    <radialGradient id="glow-a" cx="0.08" cy="0.1" r="0.8">
+      <stop offset="0" stop-color="#39d353" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#39d353" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow-b" cx="0.95" cy="1" r="0.75">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#8b949e" fill-opacity="0.14"/>
+    </pattern>
+    <clipPath id="frame">
+      <rect width="1280" height="220" rx="16"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+
+  <rect width="1280" height="220" fill="url(#bg)"/>
+  <rect width="1280" height="220" fill="url(#dots)"/>
+  <rect width="1280" height="220" fill="url(#glow-a)"/>
+  <rect width="1280" height="220" fill="url(#glow-b)"/>
+    <g font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace">
+    <text x="72" y="62" font-size="16" fill="#39d353">~/bahattin</text>
+    <text x="176.8" y="62" font-size="16" fill="#6e7681">$</text>
+    <text x="195.2" y="62" font-size="16" fill="#e6edf3">whoami</text>
+    <rect x="263.2" y="48.88" width="8.3" height="16" fill="#39d353" fill-opacity="0.9"/>
+    </g>
+    <g font-family="'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif">
+      <text x="70" y="128" font-size="46" font-weight="700" fill="#e6edf3">Bahattin Ercan</text>
+      <text x="72" y="160" font-size="18" fill="#9aa4ae">I turn complex workflows into software people can use.</text>
+    </g>
+    <g font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace">
+    <rect x="72" y="176" width="179.1" height="26" rx="13.0"
+          fill="#39d353" fill-opacity="0.10"
+          stroke="#39d353" stroke-opacity="0.45"/>
+    <text x="85" y="193.68" font-size="13"
+          fill="#39d353">[ OK ] open to work</text>
+      <text x="264.1" y="193" font-size="13"
+            fill="#6e7681">Kütahya, Turkey · 4+ years professional · English C1</text>
+    </g>
+  </g>
+
+  <rect x="0.5" y="0.5" width="1279" height="219" rx="16" fill="none"
+        stroke="#39d353" stroke-opacity="0.22"/>
+  <rect x="0" y="0" width="6" height="220" fill="url(#accent)"/>
+</svg>

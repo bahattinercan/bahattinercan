@@ -3,11 +3,11 @@
 [English](README.md) &nbsp;·&nbsp; **[Türkçe](README.tr.md)**
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="assets/banner-mobile-dark.svg">
-  <source media="(prefers-color-scheme: light) and (max-width: 640px)" srcset="assets/banner-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-  <img src="assets/banner-dark.svg" alt="Bahattin Ercan, Bilgisayar Mühendisi" width="100%">
+  <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="assets/profile-banner-mobile-dark.svg">
+  <source media="(prefers-color-scheme: light) and (max-width: 640px)" srcset="assets/profile-banner-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/profile-banner-light.svg">
+  <img src="assets/profile-banner-dark.svg" alt="Bahattin Ercan, Bilgisayar Mühendisi" width="100%">
 </picture>
 
 <a href="https://bahattinercan-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolyo-1f883d?style=flat-square&logo=vercel&logoColor=white" alt="Portfolyo"></a>

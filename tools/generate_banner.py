@@ -213,8 +213,8 @@ def write(path, body):
 
 def main():
     for theme, suffix in ((DARK, "dark"), (LIGHT, "light")):
-        write(os.path.join(ASSETS, f"banner-{suffix}.svg"), banner(theme, suffix))
-        write(os.path.join(ASSETS, f"banner-mobile-{suffix}.svg"), banner_mobile(theme))
+        write(os.path.join(ASSETS, f"profile-banner-{suffix}.svg"), banner(theme, suffix))
+        write(os.path.join(ASSETS, f"profile-banner-mobile-{suffix}.svg"), banner_mobile(theme))
     write(os.path.join(ASSETS, "social-preview.svg"), social(DARK))
 
 

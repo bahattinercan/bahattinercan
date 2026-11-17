@@ -26,7 +26,17 @@ products with Django/DRF, Node.js, Flutter and React/Next.js.
 I've been coding since 2019, with 4+ years of professional experience. English: **C1**.
 Open to remote roles abroad and remote or on-site work in Türkiye.
 
-## Selected work
+## How I build
+
+<table>
+<tr>
+<td width="33%" valign="top"><strong>01 / Understand</strong><br>Find the people and workflow first.</td>
+<td width="33%" valign="top"><strong>02 / Shape</strong><br>Model data, roles and system boundaries.</td>
+<td width="33%" valign="top"><strong>03 / Ship</strong><br>Connect clients. Test critical paths. Ship.</td>
+</tr>
+</table>
+
+## Selected work · systems in use
 
 <table>
 <tr>
@@ -97,7 +107,7 @@ offline, local SQLite. Source is private; the case study is public.
 
 </div>
 
-## Tools I use
+## The tools follow the problem
 
 - **Products:** Flutter · React · Next.js · Angular · Unity/C#
 - **APIs and data:** Django/DRF · Node.js · NestJS · PostgreSQL · Docker · Git

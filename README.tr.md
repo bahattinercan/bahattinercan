@@ -26,7 +26,17 @@ React/Next.js ile web ve mobil ürünler geliştiriyorum.
 2019'dan beri kod yazıyorum; 4+ yıl profesyonel deneyimim var. İngilizce seviyem **C1**.
 Yurt dışına uzaktan, Türkiye'de uzaktan veya yerinde çalışmaya açığım.
 
-## Seçili işler
+## Nasıl ürün geliştiriyorum
+
+<table>
+<tr>
+<td width="33%" valign="top"><strong>01 / İhtiyacı anla</strong><br>İşi yapan kişileri ve gerçek akışı tanırım.</td>
+<td width="33%" valign="top"><strong>02 / Sistemi kur</strong><br>Veriyi, rolleri ve sistem sınırlarını modellerim.</td>
+<td width="33%" valign="top"><strong>03 / Kullanıma çıkar</strong><br>İstemcileri bağlar, kritik akışları test ederim.</td>
+</tr>
+</table>
+
+## Projeler · çalışan sistemler
 
 <table>
 <tr>
@@ -97,7 +107,7 @@ Kaynak kodu özel, vaka çalışması açık.
 
 </div>
 
-## Kullandığım araçlar
+## Araçlar, ihtiyaca göre değişir
 
 - **Ürün:** Flutter · React · Next.js · Angular · Unity/C#
 - **API ve veri:** Django/DRF · Node.js · NestJS · PostgreSQL · Docker · Git

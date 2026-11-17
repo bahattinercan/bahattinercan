@@ -21,7 +21,7 @@ SANS = "'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif"
 MONO = "'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace"
 
 NAME = "Bahattin Ercan"
-ROLE = "SOFTWARE ENGINEER · PRODUCT BUILDER"
+ROLE = "SOFTWARE ENGINEER / PRODUCT BUILDER"
 STACK = "I turn complex workflows into software people can use."
 # Mobil varyant: 640 px genislikte tek satir okunmuyor, iki satira bolunur.
 STACK_MOBILE = ["I turn complex workflows into", "software people can use."]
@@ -36,8 +36,8 @@ DARK = {
     "fg": "#e6edf3",
     "muted": "#9aa4ae",
     "dim": "#6e7681",
-    "accent0": "#39d353",
-    "accent1": "#2dd4bf",
+    "accent0": "#ff7657",
+    "accent1": "#ffc857",
     "dot": "#8b949e",
     "dot_op": "0.14",
     "glow0_op": "0.20",
@@ -53,8 +53,8 @@ LIGHT = {
     "fg": "#1f2328",
     "muted": "#57606a",
     "dim": "#6e7681",
-    "accent0": "#1f883d",
-    "accent1": "#0f766e",
+    "accent0": "#d94e35",
+    "accent1": "#a65d27",
     "dot": "#1f2328",
     "dot_op": "0.10",
     "glow0_op": "0.10",
@@ -138,6 +138,17 @@ def banner(t, theme_name):
 
 {halo(t, w, h)}    <g font-family="{MONO}">
 {prompt(t, 72, 62, 16)}    </g>
+    <g font-family="{MONO}">
+      <text x="760" y="72" font-size="12" letter-spacing="2" fill="{t['accent0']}">HOW THE PIECES CONNECT</text>
+      <path d="M886 131h28m0 0-6-5m6 5-6 5M1036 131h28m0 0-6-5m6 5-6 5" fill="none" stroke="{t['accent1']}" stroke-width="2"/>
+      <rect x="760" y="96" width="126" height="70" rx="9" fill="{t['bg1']}" stroke="{t['accent0']}" stroke-opacity=".6"/>
+      <rect x="914" y="96" width="122" height="70" rx="9" fill="{t['bg1']}" stroke="{t['accent0']}" stroke-opacity=".6"/>
+      <rect x="1064" y="96" width="142" height="70" rx="9" fill="{t['bg1']}" stroke="{t['accent0']}" stroke-opacity=".6"/>
+      <text x="772" y="124" font-size="10" fill="{t['accent0']}">01 / NEED</text><text x="772" y="146" font-size="12" fill="{t['fg']}">Workflow</text>
+      <text x="926" y="124" font-size="10" fill="{t['accent0']}">02 / SYSTEM</text><text x="926" y="146" font-size="12" fill="{t['fg']}">API + data</text>
+      <text x="1076" y="124" font-size="10" fill="{t['accent0']}">03 / PRODUCT</text><text x="1076" y="146" font-size="12" fill="{t['fg']}">Web + mobile</text>
+      <text x="760" y="194" font-size="11" fill="{t['dim']}">TESTED · OBSERVABLE · USEFUL</text>
+    </g>
     <g font-family="{SANS}">
       <text x="70" y="128" font-size="46" font-weight="700" fill="{t['fg']}">{NAME}</text>
       <text x="72" y="160" font-size="18" fill="{t['muted']}">{STACK}</text>
